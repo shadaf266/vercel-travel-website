@@ -224,53 +224,71 @@ const page = () => {
             <div className="row justify-content-center mil-text-center">
               <div className="col-xl-8 mil-mb-80-adaptive-30">
                 <h2 className="mil-light mil-up">
-                  Meet Those Who Make Plax Possible
+                  Meet Those Who Make VoyAgency Possible
                 </h2>
               </div>
             </div>
             <div className="row">
-              <div className="col-xl-3 col-md-6 col-sm-6">
+              <div className="col-xl-12 col-md-6 col-sm-6">
                 <div className="mil-team-card mil-mb-30 mil-up">
+                <div className="col-xl-6 col-md-6 col-sm-6">
                   <div className="mil-portrait mil-mb-30">
-                    <img src="img/inner-pages/team/1.png" alt="portrait" />
+                    <img src="img/inner-pages/team/1.jpg" alt="portrait" />
                   </div>
-                  <h5 className="mil-light mil-mb-15">Isabella Haugen</h5>
-                  <p className="mil-text-xs mil-soft">CEO &amp; Founder</p>
+                  </div>
+                  <div className="col-xl-6 col-md-6 col-sm-6">
+                  <h5 className="mil-light mil-mb-15">Vibhor Chhabra</h5>
+                  <p className="mil-text-xs mil-soft">With over 18 years of experience in technology and travel sectors across Canada, USA and India, Vibhor holds strong expertise in strategy, business development and supplier relationships. He has previously worked with Publicis Groupe, Oracle, IBM and KPMG Canada. Prior to co-founding Voyagency, Vibhor owned and operated a business and leisure travel agency in Toronto, Canada. Vibhor is a Canadian national and holds an MBA from the Schulich School of Business, York University.</p>
+                  </div>
                 </div>
               </div>
-              <div className="col-xl-3 col-md-6 col-sm-6">
+              <div className="col-xl-12 col-md-6 col-sm-6">
                 <div className="mil-team-card mil-mb-30 mil-up">
-                  <div className="mil-portrait mil-mb-30">
-                    <img src="img/inner-pages/team/2.png" alt="portrait" />
-                  </div>
-                  <h5 className="mil-light mil-mb-15">Alexandr Dahl</h5>
+                <div className="col-xl-6 col-md-6 col-sm-6">
+                  <h5 className="mil-light mil-mb-15">Rohit Arora</h5>
                   <p className="mil-text-xs mil-soft">
-                    Chief Technology Officer (CTO)
+                  Rohit is an entrepreneur with over 20 years with unmatched expertise in corporate travel management and expense management domains. Prior to founding his own ventures, Rohit worked with PwC as their Global Lead for Digital Finance Transformation. In his previous roles, he has led over 50 large scale projects to drive innovation and digital adoption across business finance operations. Rohit is an Indian national and holds Bachelors and Masters degree in Mathematics and Computing from the Indian Institute of Technology, Delhi.
                   </p>
-                </div>
-              </div>
-              <div className="col-xl-3 col-md-6 col-sm-6">
-                <div className="mil-team-card mil-mb-30 mil-up">
-                  <div className="mil-portrait mil-mb-30">
-                    <img src="img/inner-pages/team/3.png" alt="portrait" />
                   </div>
-                  <h5 className="mil-light mil-mb-15">Lucia Knutsen</h5>
-                  <p className="mil-text-xs mil-soft">
-                    Director of Operations (COO)
-                  </p>
-                </div>
-              </div>
-              <div className="col-xl-3 col-md-6 col-sm-6">
-                <div className="mil-team-card mil-mb-30 mil-up">
+                <div className="col-xl-6 col-md-6 col-sm-6 flex-end">
                   <div className="mil-portrait mil-mb-30">
-                    <img src="img/inner-pages/team/4.png" alt="portrait" />
+                    <img src="img/inner-pages/team/2.jpeg" alt="portrait" />
                   </div>
-                  <h5 className="mil-light mil-mb-15">Carlos Martinez</h5>
-                  <p className="mil-text-xs mil-soft">
-                    Chief Information Security Officer (CISO)
-                  </p>
+                  </div>
                 </div>
               </div>
+              <div className="col-xl-12 col-md-6 col-sm-6">
+                <div className="mil-team-card mil-mb-30 mil-up">
+                <div className="col-xl-6 col-md-6 col-sm-6">
+                  <div className="mil-portrait mil-mb-30">
+                    <img src="img/inner-pages/team/3.jpg" alt="portrait" />
+                  </div>
+                  </div>
+                  <div className="col-xl-6 col-md-6 col-sm-6">
+                  <h5 className="mil-light mil-mb-15">Puneet Chhabra</h5>
+                  <p className="mil-text-xs mil-soft">
+
+                  Puneet is an experienced technology leader and a strategist with over 25 years experience in large-scale global technology implementations and services delivery management. Puneet holds a bachelor’s degree in Electrical engineering from Indian Institute of Technology, Roorkee, India and advance course in software technology from Indian Institute of Technology, Delhi, India.
+                  </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-12 col-md-6 col-sm-6">
+                <div className="mil-team-card mil-mb-30 mil-up">
+                  <div className="col-xl-6 col-md-6 col-sm-6">
+                  <h5 className="mil-light mil-mb-15">Anurag Khetarpal</h5>
+                  <p className="mil-text-xs mil-soft">
+                  Anurag is a seasoned investor based in Dubai with close to 30 years of experience in investment management and venture capital. Anurag holds a masters degree in Economics from University of Mumbai.
+                  </p>
+                  </div>
+                  <div className="col-xl-6 col-md-6 col-sm-6 flex-end">
+                  <div className="mil-portrait mil-mb-30">
+                    <img src="img/inner-pages/team/4.jpg" alt="portrait" />
+                  </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>

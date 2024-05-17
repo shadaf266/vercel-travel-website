@@ -21,7 +21,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
         <div className="row">
           <div className="col-xl-3">
             <a href="#." className="mil-footer-logo mil-mb-60">
-              <img src="img/logo-2.png" alt="Plax" width={28} height={32} />
+              <img src="img/logo.png" alt="Plax" width={160} height={50} />
             </a>
           </div>
           <div className="col-xl-3 mil-mb-60">
@@ -83,19 +83,19 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
         </div>
         <div className="mil-footer-bottom">
           <div className="row">
-            <div className="col-xl-6">
-              <p className="mil-text-s mil-soft">
-                © 2024 Plax Finance &amp; Fintech Design
+            <div className="col-xl-12">
+              <p className="mil-text-s text-center mil-soft">
+              © 2024 by VoyAgency Inc. All Rights Reserved.
               </p>
             </div>
-            <div className="col-xl-6">
+            {/* <div className="col-xl-6">
               <p className="mil-text-s mil-text-right mil-sm-text-left mil-soft">
                 Developed by{" "}
                 <a href="https://bslthemes.com" target="blank">
                   bslthemes
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -172,18 +172,18 @@ const Footer3 = ({ bg = true, margin = 160 }) => {
         <div className="mil-footer-bottom">
           <div className="row">
             <div className="col-xl-6">
-              <p className="mil-text-s mil-pale">
+              <p className="mil-text-s text-center mil-pale">
                 © 2024 Plax Finance &amp; Fintech Design
               </p>
             </div>
-            <div className="col-xl-6">
+            {/* <div className="col-xl-6">
               <p className="mil-text-s mil-text-right mil-sm-text-left mil-pale">
                 Developed by{" "}
                 <a href="https://bslthemes.com" target="blank">
                   bslthemes
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -236,18 +236,18 @@ const Footer2 = () => {
         <div className="mil-footer-bottom">
           <div className="row">
             <div className="col-xl-6">
-              <p className="mil-text-s mil-dark-soft">
-                © 2024 Plax Finance &amp; Fintech Design
+              <p className="mil-text-s text-center mil-dark-soft">
+                © 2024 Voyagency Tours & Travels
               </p>
             </div>
-            <div className="col-xl-6">
+            {/* <div className="col-xl-6">
               <p className="mil-text-s mil-text-right mil-sm-text-left mil-dark-soft">
                 Developed by{" "}
                 <a href="https://bslthemes.com" target="blank">
                   bslthemes
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
