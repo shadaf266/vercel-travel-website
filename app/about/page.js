@@ -233,12 +233,12 @@ const page = () => {
                 <div className="mil-team-card mil-mb-30 mil-up">
                 <div className="col-xl-6 col-md-6 col-sm-6">
                   <div className="mil-portrait mil-mb-30">
-                    <img src="img/inner-pages/team/1.jpg" alt="portrait" />
+                    <img src="img/inner-pages/team/10.jpg" alt="portrait" />
                   </div>
                   </div>
                   <div className="col-xl-6 col-md-6 col-sm-6">
                   <h5 className="mil-light mil-mb-15">Vibhor Chhabra</h5>
-                  <p className="mil-text-xs mil-soft">With over 18 years of experience in technology and travel sectors across Canada, USA and India, Vibhor holds strong expertise in strategy, business development and supplier relationships. He has previously worked with Publicis Groupe, Oracle, IBM and KPMG Canada. Prior to co-founding Voyagency, Vibhor owned and operated a business and leisure travel agency in Toronto, Canada. Vibhor is a Canadian national and holds an MBA from the Schulich School of Business, York University.</p>
+                  <p className="mil-text-xs mil-soft team-content">With over 18 years of experience in technology and travel sectors across Canada, USA and India, Vibhor holds strong expertise in strategy, business development and supplier relationships. He has previously worked with Publicis Groupe, Oracle, IBM and KPMG Canada. Prior to co-founding Voyagency, Vibhor owned and operated a business and leisure travel agency in Toronto, Canada. Vibhor is a Canadian national and holds an MBA from the Schulich School of Business, York University.</p>
                   </div>
                 </div>
               </div>
@@ -246,13 +246,13 @@ const page = () => {
                 <div className="mil-team-card mil-mb-30 mil-up">
                 <div className="col-xl-6 col-md-6 col-sm-6">
                   <h5 className="mil-light mil-mb-15">Rohit Arora</h5>
-                  <p className="mil-text-xs mil-soft">
+                  <p className="mil-text-xs mil-soft team-content">
                   Rohit is an entrepreneur with over 20 years with unmatched expertise in corporate travel management and expense management domains. Prior to founding his own ventures, Rohit worked with PwC as their Global Lead for Digital Finance Transformation. In his previous roles, he has led over 50 large scale projects to drive innovation and digital adoption across business finance operations. Rohit is an Indian national and holds Bachelors and Masters degree in Mathematics and Computing from the Indian Institute of Technology, Delhi.
                   </p>
                   </div>
                 <div className="col-xl-6 col-md-6 col-sm-6 flex-end">
                   <div className="mil-portrait mil-mb-30">
-                    <img src="img/inner-pages/team/2.jpeg" alt="portrait" />
+                    <img src="img/inner-pages/team/03.jpg" alt="portrait" />
                   </div>
                   </div>
                 </div>
@@ -261,12 +261,12 @@ const page = () => {
                 <div className="mil-team-card mil-mb-30 mil-up">
                 <div className="col-xl-6 col-md-6 col-sm-6">
                   <div className="mil-portrait mil-mb-30">
-                    <img src="img/inner-pages/team/3.jpg" alt="portrait" />
+                    <img src="img/inner-pages/team/07.jpg" alt="portrait" />
                   </div>
                   </div>
                   <div className="col-xl-6 col-md-6 col-sm-6">
                   <h5 className="mil-light mil-mb-15">Puneet Chhabra</h5>
-                  <p className="mil-text-xs mil-soft">
+                  <p className="mil-text-xs mil-soft team-content">
 
                   Puneet is an experienced technology leader and a strategist with over 25 years experience in large-scale global technology implementations and services delivery management. Puneet holds a bachelor’s degree in Electrical engineering from Indian Institute of Technology, Roorkee, India and advance course in software technology from Indian Institute of Technology, Delhi, India.
                   </p>
@@ -277,7 +277,7 @@ const page = () => {
                 <div className="mil-team-card mil-mb-30 mil-up">
                   <div className="col-xl-6 col-md-6 col-sm-6">
                   <h5 className="mil-light mil-mb-15">Anurag Khetarpal</h5>
-                  <p className="mil-text-xs mil-soft">
+                  <p className="mil-text-xs mil-soft team-content">
                   Anurag is a seasoned investor based in Dubai with close to 30 years of experience in investment management and venture capital. Anurag holds a masters degree in Economics from University of Mumbai.
                   </p>
                   </div>

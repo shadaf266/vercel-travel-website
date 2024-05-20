@@ -5,6 +5,7 @@ const Banner = ({
   title = "How We Are Different?",
   subTitle = "Business Travel",
   img = "img/home-2/8.png",
+  img2 = "img/home-2/7.png",
   style = { maxWidth: "135%", transform: "translateX(5%)" },
   dark = false,
 }) => {
@@ -39,19 +40,20 @@ const Banner = ({
     //     </div>
     //   </div>
     // </div>
-      <Swiper
-        spaceBetween={50}
-        slidesPerView={1}
-        navigation={false}
-        pagination={{ clickable: true }}
-        loop
-        autoplay={{
-          delay: 3000, // Delay between slides in milliseconds
-          disableOnInteraction: false, // Autoplay won't stop after user interactions
-        }}
-      >
-    {[1, 2, 3].map((_, index) => (
-      <SwiperSlide key={index}>
+<Swiper
+  spaceBetween={50}
+  slidesPerView={1}
+  navigation={false}
+  pagination={{ clickable: true }}
+  loop
+  autoplay={{
+    delay: 3000, // Delay between slides in milliseconds
+    disableOnInteraction: false, // Autoplay won't stop after user interactions
+  }}
+>
+  {[1, 2,].map((_, index) => (
+    <SwiperSlide key={index}>
+      {index === 0 && (
         <div className={`mil-banner mil-dissolve ${dark ? "mil-dark-2" : ""}`}>
           <div className="container">
             <div className="row align-items-center">
@@ -76,9 +78,38 @@ const Banner = ({
             </div>
           </div>
         </div>
-      </SwiperSlide>
-    ))}
-  </Swiper>
+      )}
+
+      {index === 1 && (
+        <div className={`mil-banner mil-dissolve ${dark ? "mil-dark-2" : ""}`}>
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-6">
+              <div className="mil-banner-text">
+                <h6 className="mil-text-gradient-2 mil-mb-20">Expense Management</h6>
+                <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
+                Solopreneurs, Professionals and Growing businesses
+                </h1>
+                <div className="mil-buttons-frame">
+                  <Link href="register" className="mil-btn mil-md mil-add-arrow">
+                    Contact Us
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6">
+              <div className="mil-banner-img">
+                <img src={img2} alt="banner" style={style} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      )}
+    </SwiperSlide>
+  ))}
+</Swiper>
+
   );
 };
 export default Banner;

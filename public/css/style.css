@@ -222,10 +222,10 @@ a {
 }
 
 .mil-soft {
-  color: rgb(242, 250, 250);
+  color:#898d96;
 }
 .mil-soft * {
-  color: rgb(242, 250, 250);
+  color:#898d96;
 }
 
 .mil-pale {
@@ -1287,7 +1287,7 @@ banner
   overflow: hidden;
   background-color: rgb(242, 250, 250);
   height: 100vh;
-  min-height: 900px;
+  min-height:691px;
   display: flex;
   align-items: center;
   padding-top: 40px;
@@ -2843,4 +2843,13 @@ text-align: center;
 .col-xl-6.col-md-6.col-sm-6.flex-end {
   display: flex;
   justify-content: flex-end;
+}
+
+.mil-text-xs.mil-soft.team-content {
+	color: rgb(242, 250, 250);
+}
+
+h1.mil-display, .h1.mil-display {
+	font-size:65px !important;
+	line-height: 1.15;
 }
