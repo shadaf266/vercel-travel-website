@@ -1,6 +1,7 @@
 "use client";
 import Banner from "@/components/Banner";
 import { CallToAction1 } from "@/components/CallToAction";
+import Slider from "@/components/Slider";
 import { Testimonials2 } from "@/components/Testimonials";
 import PlaxLayout from "@/layouts/PlaxLayout";
 import Link from "next/link";
@@ -8,7 +9,8 @@ const page = () => {
   return (
     <PlaxLayout>
       {/* banner */}
-      <Banner />
+      {/* <Banner /> */}
+      <Slider/>
       {/* banner end */}
       {/* brands */}
       <div className="mil-brands mil-p-160-160">
