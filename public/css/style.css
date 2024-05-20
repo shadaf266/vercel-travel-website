@@ -2857,3 +2857,7 @@ h1.mil-display, .h1.mil-display {
 .mil-top-menu ul {
   margin-bottom: 0;
 }
+
+.mil-footer-list {
+	padding-left: 0;
+}
