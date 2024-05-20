@@ -60,7 +60,7 @@ const Slider = ({
                            <div className="mil-banner-text">
                              <h6 className="mil-text-gradient-2 mil-mb-20">Expense Management</h6>
                              <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
-                             Solopreneurs, Professionals and Growing businesses
+                             Solopreneurs, Professionals And Growing Bsinesses
                              </h1>
                              <div className="mil-buttons-frame">
                                <Link href="register" className="mil-btn mil-md mil-add-arrow">

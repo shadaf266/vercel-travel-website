@@ -34,7 +34,7 @@ const Header = ({ dark }) => {
                   : ""
               }`}
             >
-              <a href="#." className="home-active">Home</a>
+              <a href="/" className="home-active">Home</a>
               {/* <ul>
                 <li>
                   <Link href="/">Type 1</Link>
