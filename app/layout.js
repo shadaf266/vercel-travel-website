@@ -11,6 +11,8 @@ import "@css/plugins/swiper.min.css";
 
 import "@css/plugins/magnific-popup.css";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Preloader from "@/layouts/Preloader";
 import "@css/style.css";
 

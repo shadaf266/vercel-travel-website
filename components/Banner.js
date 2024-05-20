@@ -1,61 +1,18 @@
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { sliderProps } from "@/utility/sliderProps";
+import { Carousel } from "react-bootstrap";
+
 const Banner = ({
   title = "How We Are Different?",
   subTitle = "Business Travel",
   img = "img/home-2/8.png",
   img2 = "img/home-2/7.png",
-  style = { maxWidth: "135%", transform: "translateX(5%)" },
   dark = false,
 }) => {
   return (
-    // <div className={`mil-banner mil-dissolve ${dark ? "mil-dark-2" : ""}`}>
-    //   <div className="container">
-    //     <div className="row align-items-center">
-    //       <div className="col-xl-6">
-    //         <div className="mil-banner-text">
-    //           <h6 className="mil-text-gradient-2 mil-mb-20">{subTitle}</h6>
-    //           <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
-    //             {title}
-    //           </h1>
-    //           <div className="mil-buttons-frame">
-    //             <Link href="register" className="mil-btn mil-md mil-add-arrow">
-    //               Try demo
-    //             </Link>
-    //             {/* <a
-    //               href="https://www.youtube.com/watch?v=gRhoYxy9Oss"
-    //               className="mil-btn mil-md mil-light mil-add-play has-popup-video"
-    //             >
-    //               Watch tutorial
-    //             </a> */}
-    //           </div>
-    //         </div>
-    //       </div>
-    //       <div className="col-xl-6">
-    //         <div className="mil-banner-img">
-    //           <img src={img} alt="banner" style={style} />
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-<Swiper
-  spaceBetween={50}
-  slidesPerView={1}
-  navigation={false}
-  pagination={{ clickable: true }}
-  loop
-  autoplay={{
-    delay: 3000, // Delay between slides in milliseconds
-    disableOnInteraction: false, // Autoplay won't stop after user interactions
-  }}
->
-  {[1, 2,].map((_, index) => (
-    <SwiperSlide key={index}>
-      {index === 0 && (
-        <div className={`mil-banner mil-dissolve ${dark ? "mil-dark-2" : ""}`}>
-          <div className="container">
+      <div className={`mil-banner mil-dissolve ${dark ? "mil-dark-2" : ""}`}>
+        <div className="container">
+          <Carousel interval={3000} pause={false} indicators={true} controls={false}>
+          <Carousel.Item>
             <div className="row align-items-center">
               <div className="col-xl-6">
                 <div className="mil-banner-text">
@@ -65,53 +22,46 @@ const Banner = ({
                   </h1>
                   <div className="mil-buttons-frame">
                     <Link href="register" className="mil-btn mil-md mil-add-arrow">
-                      Contact Us
+                      Contact us
                     </Link>
                   </div>
                 </div>
               </div>
               <div className="col-xl-6">
                 <div className="mil-banner-img">
-                  <img src={img} alt="banner" style={style} />
+                  <img src={img} alt="banner" className="d-block w-100" />
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      )}
-
-      {index === 1 && (
-        <div className={`mil-banner mil-dissolve ${dark ? "mil-dark-2" : ""}`}>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-6">
-              <div className="mil-banner-text">
-                <h6 className="mil-text-gradient-2 mil-mb-20">Expense Management</h6>
-                <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
-                Solopreneurs, Professionals and Growing businesses
-                </h1>
-                <div className="mil-buttons-frame">
-                  <Link href="register" className="mil-btn mil-md mil-add-arrow">
-                    Contact Us
-                  </Link>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="row align-items-center">
+              <div className="col-xl-6">
+                <div className="mil-banner-text">
+                  <h6 className="mil-text-gradient-2 mil-mb-20">Expense Management</h6>
+                  <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
+                    Solopreneurs, Professionals and Growing businesses
+                  </h1>
+                  <div className="mil-buttons-frame">
+                    <Link href="register" className="mil-btn mil-md mil-add-arrow">
+                      Contact us
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-6">
+                <div className="mil-banner-img">
+                  <img src={img2} alt="banner" className="d-block w-100" />
                 </div>
               </div>
             </div>
-            <div className="col-xl-6">
-              <div className="mil-banner-img">
-                <img src={img2} alt="banner" style={style} />
-              </div>
-            </div>
-          </div>
-        </div>
+          </Carousel.Item>
+        </Carousel>
       </div>
-      )}
-    </SwiperSlide>
-  ))}
-</Swiper>
-
+    </div>
   );
 };
+
 export default Banner;
 
 export const PageBanner = ({
