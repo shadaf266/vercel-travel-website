@@ -21,7 +21,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
         <div className="row">
           <div className="col-xl-3">
             <a href="#." className="mil-footer-logo mil-mb-60">
-              <img src="img/logo.png" alt="Plax" width={160} height={50} />
+              <img src="img/logo.png" alt="Plax" width={180} height={50} />
             </a>
           </div>
           <div className="col-xl-3 mil-mb-60">
