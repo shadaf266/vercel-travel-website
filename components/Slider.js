@@ -71,7 +71,7 @@ const Slider = ({
                          </div>
                          <div className="col-xl-6">
                            <div className="mil-banner-img img-2">
-                             <img src={'img/home-2/8.png'} alt="banner" className="img-slide-2" width={700} height={600} style={testimonial.style} />
+                             <img src={'img/home-2/8.png'} alt="banner" className="img-slide-2" style={testimonial.style} />
                            </div>
                          </div>
                        </div>
