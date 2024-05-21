@@ -1293,10 +1293,10 @@ banner
   padding-top: 40px;
 }
 .mil-banner .mil-banner-img {
-  width: 100%;
+  width: 60%;
 }
 .mil-banner .mil-banner-img img {
-  float: right;
+  float:left;
 }
 .mil-banner .mil-banner-img.mil-banner-img-out img {
   transform: translateX(-80px);
@@ -1789,8 +1789,8 @@ illustrations
   position: relative;
 }
 .mil-illustration-absolute img {
-  position: absolute;
-  width: 100%;
+	position: absolute;
+	width: 100%;
 }
 @media screen and (max-width: 992px) {
   .mil-illustration-absolute {
@@ -2432,6 +2432,7 @@ textarea::placeholder {
 }
 .mil-checkbox-frame p {
   padding-left: 15px;
+  margin-bottom: 0 !important;
 }
 
 .mil-checkbox {
@@ -2783,7 +2784,7 @@ margin-left: 1.5rem;
 .search-container {
 	position: relative;
 	width: 100%;
-	left: 8%;
+	left: 3%;
 }
 
 .search-toggle {
@@ -2860,4 +2861,30 @@ h1.mil-display, .h1.mil-display {
 
 .mil-footer-list {
 	padding-left: 0;
+}
+
+.mil-logo {
+	width: 240px !important;
+	display: inline-block;
+	height: 40px !important;
+}
+
+footer .mil-footer-logo {
+	width: 240px !important;
+	display: inline-block;
+	height: 40px !important;
+	position: relative;
+	bottom: 14px;
+}
+
+.feature-list {
+	padding-left: 0;
+}
+
+.feature-list li {
+	color: #898d96;
+}
+
+.mil-features.mil-p-0-80 {
+	padding-top: 155px;
 }

@@ -8,7 +8,7 @@ const Slider = ({
       title: "How We Are Different?",
       subTitle: "Business Travel",
       img: "img/home-2/8.png",
-      img2: "img/home-2/9.png",
+      img2: "img/home-2/8.png",
       style: { maxWidth: "135%", transform: "translateX(5%)" },
       dark: false,
     },
@@ -70,8 +70,8 @@ const Slider = ({
                            </div>
                          </div>
                          <div className="col-xl-6">
-                           <div className="mil-banner-img">
-                             <img src={'img/home-2/9.png'} alt="banner" style={testimonial.style} />
+                           <div className="mil-banner-img img-2">
+                             <img src={'img/home-2/8.png'} alt="banner" className="img-slide-2" width={700} height={600} style={testimonial.style} />
                            </div>
                          </div>
                        </div>

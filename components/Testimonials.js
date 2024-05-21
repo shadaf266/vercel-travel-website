@@ -161,9 +161,8 @@ export const Testimonials2 = () => {
               />
             </svg>
             <p className="mil-text-m mil-mb-30 mil-up">
-              I had never felt so connected to my finances. The instant alerts
-              from Plax keep me informed in real time, giving me a feeling of
-              total control. But the result, the lion needs to drink members.
+             VoyAgency Inc. provided exceptional travel services. From start to finish, every aspect 
+             of our trip was seamless and enjoyable.
             </p>
             <div className="mil-customer">
               <img src="img/faces/1.jpg" alt="Customer" className="mil-up" />
@@ -191,9 +190,8 @@ export const Testimonials2 = () => {
               />
             </svg>
             <p className="mil-text-m mil-mb-30 mil-up">
-              Plax Standard has proven to be more than a card; it is my
-              financial defender. Proactive alerts give me confidence that my
-              security is in good hands.
+             VoyAgency Inc. exceeded our expectations with seamless travel arrangements and 
+             personalized service. They're our top choice for unforgettable journeys.
             </p>
             <div className="mil-customer">
               <img src="img/faces/2.jpg" alt="Customer" className="mil-up" />
@@ -221,9 +219,8 @@ export const Testimonials2 = () => {
               />
             </svg>
             <p className="mil-text-m mil-mb-30 mil-up">
-              The detailed notification history in the App gives me a complete
-              view of my financial activity. It's like having a personal
-              security assistant always.
+             VoyAgency made our travel dreams a reality! Professionalism, attention to detail, and 
+             exceptional customer service - they have it all.
             </p>
             <div className="mil-customer">
               <img src="img/faces/3.jpg" alt="Customer" className="mil-up" />
@@ -251,9 +248,8 @@ export const Testimonials2 = () => {
               />
             </svg>
             <p className="mil-text-m mil-mb-30 mil-up">
-              The detailed notification history in the App gives me a complete
-              view of my financial activity. It's like having a personal
-              security assistant always.
+             Efficient, reliable, and accommodating, VoyAgency ensured our trip was flawless. 
+             Highly recommend for stress-free travel experiences
             </p>
             <div className="mil-customer">
               <img src="img/faces/2.jpg" alt="Customer" className="mil-up" />

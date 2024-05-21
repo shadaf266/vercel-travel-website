@@ -120,7 +120,7 @@ const page = () => {
             <div className="row align-items-end">
               <div className="col-xl-8 mil-mb-80-adaptive-30">
                 <h2 className="mil-up">
-                  Innovation and Efficiency in Every Transaction
+                  Finest Safety Systems
                 </h2>
               </div>
               <div className="col-xl-4 mil-mb-80 mil-up">
@@ -140,10 +140,9 @@ const page = () => {
                     alt="icon"
                     className="mil-mb-30 mil-up"
                   />
-                  <h5 className="mil-mb-30 mil-up">Unmatched Speed</h5>
+                  <h5 className="mil-mb-30 mil-up">Travel Documentation</h5>
                   <p className="mil-text-m mil-soft mil-up">
-                    Make instant transfers and experience <br />
-                    Plax's unparalleled speed with every transaction.
+                  VoyAgency ensures seamless travel documentation for a hassle-free journey.
                   </p>
                 </div>
               </div>
@@ -154,11 +153,9 @@ const page = () => {
                     alt="icon"
                     className="mil-mb-30 mil-up"
                   />
-                  <h5 className="mil-mb-30 mil-up">Extensive Global Network</h5>
+                  <h5 className="mil-mb-30 mil-up">24x7 Emergency Support</h5>
                   <p className="mil-text-m mil-soft mil-up">
-                    Connect with the world through our <br />
-                    global network that spans more than <br />
-                    170 countries.
+                  VoyAgency offers 24x7 emergency support to handle any travel disruptions swiftly.
                   </p>
                 </div>
               </div>
@@ -169,11 +166,9 @@ const page = () => {
                     alt="icon"
                     className="mil-mb-30 mil-up"
                   />
-                  <h5 className="mil-mb-30 mil-up">Advanced Security</h5>
+                  <h5 className="mil-mb-30 mil-up">Transportation Security</h5>
                   <p className="mil-text-m mil-soft mil-up">
-                    Protect your assets with our robust <br />
-                    security protocols and cutting-edge <br />
-                    technologies.
+                   Secure your journey with Voyagency – the trusted name in travel safety.
                   </p>
                 </div>
               </div>

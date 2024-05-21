@@ -21,8 +21,7 @@ const Header = ({ dark }) => {
           <img
             src={dark ? "img/logo-light.png" : "img/logo.png"}
             alt="Plax"
-            width={180}
-            height={50}
+            className="logo-img"
           />
         </Link>
         <nav className={`mil-top-menu ${toggle ? "mil-active" : ""}`}>

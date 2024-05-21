@@ -21,7 +21,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
         <div className="row">
           <div className="col-xl-3">
             <a href="#." className="mil-footer-logo mil-mb-60">
-              <img src="img/logo.png" alt="Plax" width={180} height={50} />
+              <img src="img/logo.png" alt="Plax" />
             </a>
           </div>
           <div className="col-xl-3 mil-mb-60">
@@ -48,14 +48,13 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
             <h6 className="mil-mb-60">Help</h6>
             <ul className="mil-footer-list">
               <li className="mil-text-m mil-soft mil-mb-15">
-                999 Rue du Cherche-Midi, 7755500666 Paris, <br />
-                France
+                500 4th Ave SW Calgary AB
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
-                +001 (808) 555-0111
+              1-888-227-3799
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
-                support@plax.network
+                support@Voyagency.travel
               </li>
             </ul>
           </div>
