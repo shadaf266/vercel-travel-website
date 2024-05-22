@@ -60,7 +60,7 @@ const Slider = ({
                            <div className="mil-banner-text">
                              <h6 className="mil-text-gradient-2 mil-mb-20">Expense Management</h6>
                              <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
-                              messaging	
+                              Simplified Expense Management for Seamless Travel Planning and Cost Control
                              </h1>
                              <div className="mil-buttons-frame">
                                <Link href="register" className="mil-btn mil-md mil-add-arrow">
@@ -84,9 +84,9 @@ const Slider = ({
                        <div className="row align-items-center">
                          <div className="col-xl-6">
                            <div className="mil-banner-text">
-                             <h6 className="mil-text-gradient-2 mil-mb-20">Solopreneurs,</h6>
+                             <h6 className="mil-text-gradient-2 mil-mb-20">Tailored Travel Solutions for</h6>
                              <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
-                              Professionals And Growing Bsinesses
+                              Solopreneurs, Professionals And Growing Bsinesses
                              </h1>
                              <div className="mil-buttons-frame">
                                <Link href="register" className="mil-btn mil-md mil-add-arrow">

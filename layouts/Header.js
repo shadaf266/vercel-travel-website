@@ -55,26 +55,27 @@ const Header = ({ dark }) => {
             
             <li
               className={`mil-has-children ${activeMenuFuntion([
-                "blog",
-                "publication",
+                "travel",
+                "services-expense-management",
+                "service-for-solopreneurs",
               ])}`}
             >
               <a href="#.">Services</a>
               <ul>
                 <li>
-                  <Link href="blog">Travel</Link>
+                  <Link href="travel">Travel</Link>
                 </li>
                 <li>
-                  <Link href="publication">Expense Management</Link>
+                  <Link href="services-expense-management">Expense Management</Link>
                 </li>
                 <li>
-                  <Link href="publication">For Solopreneurs</Link>
+                  <Link href="service-for-solopreneurs">For Solopreneurs</Link>
                 </li>
                 <li>
-                  <Link href="publication">For Professionals</Link>
+                  <Link href="service-for-solopreneurs">For Professionals</Link>
                 </li>
                 <li>
-                  <Link href="publication">For Growing Businesses</Link>
+                  <Link href="service-for-solopreneurs">For Growing Businesses</Link>
                 </li>
               </ul>
             </li>
