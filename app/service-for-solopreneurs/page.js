@@ -6,8 +6,8 @@ const page = () => {
   return (
     <PlaxLayout bg={false}>
       <PageBanner
-        title="Solopreneurs, Professionals, and Growing Businesses"
-        pageName="Solopreneurs, Professionals, and Growing Businesses"
+        title="Solopreneurs,Professionals and Growing Businesses"
+        pageName="Tailored Travel Solutions for"
       />
 
       {/* banner end */}

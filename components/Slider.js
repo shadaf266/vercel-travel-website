@@ -37,8 +37,8 @@ const Slider = ({
                         {testimonial.title}
                       </h1>
                       <div className="mil-buttons-frame">
-                        <Link href="register" className="mil-btn mil-md mil-add-arrow">
-                          Contact Us
+                        <Link href="travel" className="mil-btn mil-md mil-add-arrow">
+                          Learn More
                         </Link>
                       </div>
                     </div>
@@ -63,8 +63,8 @@ const Slider = ({
                               Simplified Expense Management for Seamless Travel Planning and Cost Control
                              </h1>
                              <div className="mil-buttons-frame">
-                               <Link href="register" className="mil-btn mil-md mil-add-arrow">
-                                 Contact Us
+                               <Link href="services-expense-management" className="mil-btn mil-md mil-add-arrow">
+                                Learn More
                                </Link>
                              </div>
                            </div>
@@ -89,8 +89,8 @@ const Slider = ({
                               Solopreneurs, Professionals And Growing Bsinesses
                              </h1>
                              <div className="mil-buttons-frame">
-                               <Link href="register" className="mil-btn mil-md mil-add-arrow">
-                                 Contact Us
+                               <Link href="service-for-solopreneurs" className="mil-btn mil-md mil-add-arrow">
+                               Learn More
                                </Link>
                              </div>
                            </div>

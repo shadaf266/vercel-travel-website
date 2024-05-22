@@ -63,19 +63,19 @@ const Header = ({ dark }) => {
               <a href="#.">Services</a>
               <ul>
                 <li>
-                  <Link href="travel">Travel</Link>
+                  <Link href="travel">Business Travel</Link>
                 </li>
                 <li>
                   <Link href="services-expense-management">Expense Management</Link>
                 </li>
                 <li>
-                  <Link href="service-for-solopreneurs">For Solopreneurs</Link>
+                  <Link href="service-for-solopreneurs">Tailored Travel Solutions for Solopreneurs</Link>
                 </li>
                 <li>
-                  <Link href="service-for-solopreneurs">For Professionals</Link>
+                  <Link href="service-for-solopreneurs">Tailored Travel Solutions for Professionals</Link>
                 </li>
                 <li>
-                  <Link href="service-for-solopreneurs">For Growing Businesses</Link>
+                  <Link href="service-for-solopreneurs">Tailored Travel Solutions for Growing Businesses</Link>
                 </li>
               </ul>
             </li>
