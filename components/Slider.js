@@ -8,7 +8,7 @@ const Slider = ({
       title: "How We Are Different?",
       subTitle: "Business Travel",
       img: "img/home-2/8.png",
-      img2: "img/home-2/8.png",
+      img2: "img/home-2/9.png",
       style: { maxWidth: "135%", transform: "translateX(5%)" },
       dark: false,
     },
@@ -52,7 +52,7 @@ const Slider = ({
               </div>
             </div>
           </SwiperSlide>
-                   <SwiperSlide key={index}>
+          <SwiperSlide key={index}>
                    <div className={`mil-banner mil-dissolve ${testimonial.dark ? "mil-dark-2" : ""}`}>
                      <div className="container">
                        <div className="row align-items-center">
@@ -60,7 +60,33 @@ const Slider = ({
                            <div className="mil-banner-text">
                              <h6 className="mil-text-gradient-2 mil-mb-20">Expense Management</h6>
                              <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
-                             Solopreneurs, Professionals And Growing Bsinesses
+                              messaging	
+                             </h1>
+                             <div className="mil-buttons-frame">
+                               <Link href="register" className="mil-btn mil-md mil-add-arrow">
+                                 Contact Us
+                               </Link>
+                             </div>
+                           </div>
+                         </div>
+                         <div className="col-xl-6">
+                           <div className="mil-banner-img img-9">
+                             <img src={'img/home-2/9.png'} alt="banner" className="img-slide-2" style={testimonial.style} />
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </SwiperSlide>
+                   <SwiperSlide key={index}>
+                   <div className={`mil-banner mil-dissolve ${testimonial.dark ? "mil-dark-2" : ""}`}>
+                     <div className="container">
+                       <div className="row align-items-center">
+                         <div className="col-xl-6">
+                           <div className="mil-banner-text">
+                             <h6 className="mil-text-gradient-2 mil-mb-20">Solopreneurs,</h6>
+                             <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
+                              Professionals And Growing Bsinesses
                              </h1>
                              <div className="mil-buttons-frame">
                                <Link href="register" className="mil-btn mil-md mil-add-arrow">
@@ -71,7 +97,7 @@ const Slider = ({
                          </div>
                          <div className="col-xl-6">
                            <div className="mil-banner-img img-2">
-                             <img src={'img/home-2/8.png'} alt="banner" className="img-slide-2" style={testimonial.style} />
+                             <img src={'img/home-2/10.png'} alt="banner" className="img-slide-2" style={testimonial.style} />
                            </div>
                          </div>
                        </div>

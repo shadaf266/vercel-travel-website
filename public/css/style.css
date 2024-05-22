@@ -2721,8 +2721,8 @@ footer.mil-footer-dark-2 .mil-footer-bottom {
 
 
 .search-container .search-toggle {
-  width: 1.7rem;
-  height: 1.7rem;
+  width: 25px;
+  height: 25px;
   background-image: url('../img/search-sprite.svg');
   background-size: cover;
   background-position: left center;
@@ -2784,7 +2784,7 @@ margin-left: 1.5rem;
 .search-container {
 	position: relative;
 	width: 100%;
-	left: 3%;
+	left: 2%;
 }
 
 .search-toggle {
@@ -2887,4 +2887,12 @@ footer .mil-footer-logo {
 
 .mil-features.mil-p-0-80 {
 	padding-top: 155px;
+}
+
+.col-xl-4.mil-mb-93.mil-up {
+	margin-bottom: 93px;
+}
+
+.mil-banner-img.img-9 img {
+	width: 117% !important;
 }
