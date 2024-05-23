@@ -133,15 +133,66 @@ h1.mil-display,
   font-size: 100px;
   line-height: 1.15;
 }
+h1.mil-display, .h1.mil-display {
+	font-size:62px !important;
+	line-height: 1.15;
+}
+.mil-banner .mil-banner-img {
+  width: 60%;
+}
+.mil-banner-img.img-9 img {
+	width: 439px !important;
+	height: 450px !important;
+	margin-bottom: 45px;
+}
+.mil-features.mil-p-0-80 {
+	padding-top: 155px;
+}
+
 @media screen and (max-width: 992px) {
   h1,
   .h1 {
-    font-size: 56px;
+    font-size: 35px !important;
+    word-break: break-word;
   }
+  ol, ul {
+    padding-left: 0rem !important;
+}
   h1.mil-display,
   .h1.mil-display {
-    font-size: 56px;
+    font-size: 35px !important;
   }
+  h1.mil-display, .h1.mil-display {
+    font-size: 35px !important;
+    line-height: 1.15;
+    margin-bottom: 20px !important;
+}
+.mil-banner .mil-banner-img {
+  width: 90%;
+  margin-right: 34px;
+}
+.col-xl-6.banner-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+}
+.mil-banner-img.img-2 {
+  margin-right: 0;
+}
+.mil-banner-img.img-9 img {
+	width: 330px !important;
+	height:450px !important;
+	margin-bottom:0px;
+  margin-left: 32px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  display: none;
+}
+.mil-features.mil-p-0-80 {
+	padding-top:55px !important;
+}
 }
 
 h2,
@@ -466,7 +517,7 @@ buttons
 @media screen and (max-width: 992px) {
   .mil-btn.mil-md {
     padding: 0 25px;
-    height: 62px;
+    height: 50px;
   }
 }
 .mil-btn.mil-border {
@@ -845,6 +896,21 @@ preloader
   border-radius: 3px;
 }
 
+.mil-btn.signup-btn.mr-2.mil-sm{
+  display: none !important;
+}
+.mil-logo {
+	width: 240px !important;
+	display: inline-block;
+	height: 40px !important;
+}
+footer .mil-footer-logo {
+	width: 240px !important;
+	display: inline-block;
+	height: 40px !important;
+	position: relative;
+	bottom: 14px;
+}
 /* -------------------------------------------
 
 scrollbar
@@ -869,10 +935,129 @@ scrollbar
   height: 0;
   background-color:#F15A29;
 }
+.search-container.mobile {
+	display: none;
+}
+
+.mil-scale-img {
+	width: 1024px !important;
+	height: 600px !important;
+}
+.mil-team-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mil-portrait.mil-mb-30 {
+  width: 63%;
+  height: 350px;
+  padding-bottom: 0;
+}
 @media screen and (max-width: 768px) {
   .mil-progress-track {
     display: none;
   }
+  a.mil-btn.signup-desktop.mr-2.mil-sm {
+    display: none;
+}
+.mil-btn.signup-btn.mr-2.mil-sm {
+  display: flex !important;
+}
+.mil-logo {
+  width: 140px !important;
+  height: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.mil-btn.signup-btn.mr-2.mil-sm {
+  margin-left: 13px !important;
+  margin-right: 13px !important;
+}
+.mil-top-menu ul li {
+  list-style-type: none;
+  margin-right: 2px !important;
+  position: relative;
+}
+.mil-top-menu ul li.mil-has-children > a:before {
+  right: 7px;
+}
+.mil-menu-btn span, .mil-menu-btn span:after, .mil-menu-btn span:before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #F15A29 !important;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: inherit;
+}
+a.mil-btn.signup-desktop.mil-sm {
+  display: none;
+}
+
+.mil-top-menu {
+  flex-direction: column;
+}
+
+.search-container {
+  margin-left: 13.500px;
+  margin-right: -27.5px;
+}
+
+a.mil-btn.signup-desktop.mil-sm {
+  display: none;
+}
+.search-container.desktop {
+  display: none;
+}
+.search-container.mobile {
+  display: flex !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.search-container.mobile a.search-toggle {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.search-container.mobile .search {
+  width: 20rem !important;
+}
+
+.mil-input.search-input.mil-up {
+  padding-left: 0 !important;
+}
+
+.col-md-12.d-flex.justify-content-center.align-items-center {
+  width: 100%;
+}
+a.mil-footer-logo.mil-mb-60 {
+  width: 140px !important;
+  height: 50px !important;
+}
+
+.mil-scale-img {
+	width: 343px !important;
+	height: 380px !important;
+}
+.mil-team-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mil-portrait.mil-mb-30 {
+  width:343px !important;
+  height: 446px !important;
+  padding-bottom: 0;
+}
+.mil-team-card.flex-drc {
+  flex-direction: column-reverse;
+}
 }
 
 /* -------------------------------------------
@@ -1291,9 +1476,6 @@ banner
   display: flex;
   align-items: center;
   padding-top: 40px;
-}
-.mil-banner .mil-banner-img {
-  width: 60%;
 }
 .mil-banner .mil-banner-img img {
   float:left;
@@ -2034,7 +2216,7 @@ team
 }
 .mil-team-card .mil-portrait {
   position: relative;
-  padding-bottom: 130%;
+  padding-bottom:50%;
   border-radius: 40px;
   overflow: hidden;
 }
@@ -2829,17 +3011,7 @@ text-align: center;
 	outline: none;
 }
 
-.mil-team-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.mil-portrait.mil-mb-30 {
-  width: 63%;
-  height: 350px;
-  padding-bottom: 0;
-}
 
 .col-xl-6.col-md-6.col-sm-6.flex-end {
   display: flex;
@@ -2850,10 +3022,7 @@ text-align: center;
 	color: rgb(242, 250, 250);
 }
 
-h1.mil-display, .h1.mil-display {
-	font-size:62px !important;
-	line-height: 1.15;
-}
+
 
 .mil-top-menu ul {
   margin-bottom: 0;
@@ -2863,19 +3032,6 @@ h1.mil-display, .h1.mil-display {
 	padding-left: 0;
 }
 
-.mil-logo {
-	width: 240px !important;
-	display: inline-block;
-	height: 40px !important;
-}
-
-footer .mil-footer-logo {
-	width: 240px !important;
-	display: inline-block;
-	height: 40px !important;
-	position: relative;
-	bottom: 14px;
-}
 
 .feature-list {
 	padding-left: 0;
@@ -2893,11 +3049,9 @@ footer .mil-footer-logo {
 	margin-bottom: 93px;
 }
 
-.mil-banner-img.img-9 img {
-	width: 117% !important;
+
+.swiper-pagination-bullet-active{
+  background-color:#F15A29 !important;
 }
 
-.mil-scale-img {
-	width: 1024px !important;
-	height: 600px !important;
-}
+

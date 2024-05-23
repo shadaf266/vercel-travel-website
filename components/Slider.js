@@ -21,7 +21,7 @@ const Slider = ({
         spaceBetween={50}
         slidesPerView={1}
         loop={true}
-        autoplay={{ delay: 3000 }}
+        // autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
       >
         {testimonials.map((testimonial, index) => (
@@ -43,7 +43,7 @@ const Slider = ({
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-6">
+                  <div className="col-xl-6 banner-column">
                     <div className="mil-banner-img">
                       <img src={testimonial.img} alt="banner" style={testimonial.style} />
                     </div>
@@ -69,7 +69,7 @@ const Slider = ({
                              </div>
                            </div>
                          </div>
-                         <div className="col-xl-6">
+                         <div className="col-xl-6 banner-column">
                            <div className="mil-banner-img img-9">
                              <img src={'img/home-2/9.png'} alt="banner" className="img-slide-2" style={testimonial.style} />
                            </div>
@@ -82,7 +82,7 @@ const Slider = ({
                    <div className={`mil-banner mil-dissolve ${testimonial.dark ? "mil-dark-2" : ""}`}>
                      <div className="container">
                        <div className="row align-items-center">
-                         <div className="col-xl-6">
+                         <div className="col-xl-6 ">
                            <div className="mil-banner-text">
                              <h6 className="mil-text-gradient-2 mil-mb-20">Tailored Travel Solutions for</h6>
                              <h1 className="mil-display mil-text-gradient-3 mil-mb-60">
@@ -95,7 +95,7 @@ const Slider = ({
                              </div>
                            </div>
                          </div>
-                         <div className="col-xl-6">
+                         <div className="col-xl-6 banner-column">
                            <div className="mil-banner-img img-2">
                              <img src={'img/home-2/10.png'} alt="banner" className="img-slide-2" style={testimonial.style} />
                            </div>

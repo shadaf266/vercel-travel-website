@@ -152,8 +152,14 @@ const Header = ({ dark }) => {
                 </li>
               </ul>
             </li>
+            <Link href="register" className="mil-btn signup-btn mr-2 mb-2 mil-sm">
+            Sign Up
+           </Link>
+           <Link href="register" className="mil-btn signup-btn mr-2 mil-sm">
+            Log in
+          </Link>
           </ul>
-          <div className="search-container">
+          <div className="search-container desktop">
             <a className="search-toggle" onClick={handleToggle}>Search toggle</a>
             <form className={`search ${isSearchVisible ? 'show-search' : ''}`} action="/">
                 <div className="col-md-12 d-flex justify-content-center align-items-center">
@@ -169,12 +175,26 @@ const Header = ({ dark }) => {
         </div>
         </nav>
         <div className="mil-menu-buttons">
-          <Link href="register" className="mil-btn mr-2 mil-sm">
+          <Link href="register" className="mil-btn signup-desktop mr-2 mil-sm">
             Sign Up
           </Link>
-          <Link href="register" className="mil-btn mil-sm">
+          <Link href="register" className="mil-btn signup-desktop mil-sm">
             Log in
           </Link>
+          <div className="search-container mobile">
+            <a className="search-toggle" onClick={handleToggle}>Search toggle</a>
+            <form className={`search ${isSearchVisible ? 'show-search' : ''}`} action="/">
+                <div className="col-md-12 d-flex justify-content-center align-items-center">
+                    <input
+                      className="mil-input search-input mil-up"
+                      type="text"
+                      placeholder="What can we help you find?"
+                      name="search"
+                    />
+                  <button type="submit">Search</button>
+                  </div>
+            </form>
+        </div>
           <div
             className={`mil-menu-btn ${toggle ? "mil-active" : ""}`}
             onClick={() => setToggle(!toggle)}

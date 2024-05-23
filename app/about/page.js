@@ -243,7 +243,7 @@ const page = () => {
                 </div>
               </div>
               <div className="col-xl-12 col-md-6 col-sm-6">
-                <div className="mil-team-card mil-mb-30 mil-up">
+                <div className="mil-team-card flex-drc mil-mb-30 mil-up">
                 <div className="col-xl-6 col-md-6 col-sm-6">
                   <h5 className="mil-light mil-mb-15">Rohit Arora</h5>
                   <p className="mil-text-xs mil-soft team-content">
@@ -274,7 +274,7 @@ const page = () => {
                 </div>
               </div>
               <div className="col-xl-12 col-md-6 col-sm-6">
-                <div className="mil-team-card mil-mb-30 mil-up">
+                <div className="mil-team-card flex-drc mil-mb-30 mil-up">
                   <div className="col-xl-6 col-md-6 col-sm-6">
                   <h5 className="mil-light mil-mb-15">Anurag Khetarpal</h5>
                   <p className="mil-text-xs mil-soft team-content">
