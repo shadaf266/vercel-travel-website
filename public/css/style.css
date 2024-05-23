@@ -1510,6 +1510,12 @@ banner
     width: 110% !important;
     float: left;
   }
+  .col-xl-6.banner-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
 }
 .mil-banner.mil-banner-inner {
   height: auto;

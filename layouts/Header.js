@@ -60,7 +60,7 @@ const Header = ({ dark }) => {
                 "service-for-solopreneurs",
               ])}`}
             >
-              <a href="#.">Services</a>
+              <a href="#">Services</a>
               <ul>
                 <li>
                   <Link href="travel">Business Travel</Link>
