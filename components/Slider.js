@@ -21,7 +21,7 @@ const Slider = ({
         spaceBetween={50}
         slidesPerView={1}
         loop={true}
-        // autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
       >
         {testimonials.map((testimonial, index) => (
