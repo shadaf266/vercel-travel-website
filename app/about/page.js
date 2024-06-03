@@ -11,8 +11,11 @@ const page = () => {
               <div className="mil-banner-text mil-text-center">
                 <div className="mil-text-m mil-mb-20">About us</div>
                 <h1 className="mil-mb-60">
-                  More than a Platform, a Financial Revolution
-                </h1>
+                 We get it! We're business owners who travel for work, just like you.</h1>
+                 <p className="mil-text-m mil-soft mil-up">
+                 We want the best corporate travel deals; we want to travel in style but hate the post-trip administrative burden.<br/>
+                 We know what works for small businesses. We're building something revolutionary. Are you ready to join us? 
+                 </p>
                 <ul className="mil-breadcrumbs mil-center">
                   <li>
                     <Link href="/">Home</Link>
@@ -33,31 +36,24 @@ const page = () => {
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
               <h2 className="mil-mb-30 mil-up">
-                The Vision that drives our Team
+                Evolution 
               </h2>
               <p className="mil-text-m mil-soft mil-mb-60 mil-up">
-                Explore the foundations of Plax and how our purpose-driven start
-                has shaped our identity. From initial challenges to realizing
-                our vision of simplifying cross-border payments, this purposeful
-                journey has led Plax to become a leading force in the financial
-                revolution.
+              Our co-founders, Vibhor and Rohit, know the pain points of a small business traveler.
+              Vibhor runs a decade old travel agency in Toronto. He travels frequently for business, 
+              across Canada and internationally. Rohit, on the other hand, was a business consultant 
+              with a Big 4 firm based in Gurgaon and 
+              followed Monday to Thursday travel routine for years.  Both, Vibhor and Rohit, are 
+              savvy travelers and experienced technologists. 
               </p>
-              <ul className="mil-list-2 mil-type-2">
-                <li>
-                  <div className="mil-up">
-                    <h5 className="mil-mb-15">Transformative Vision</h5>
-                    <p className="mil-text-m mil-soft">
-                      Discover how Plax's initial vision was focused on
-                      transforming the way people transact globally.
-                    </p>
-                  </div>
-                </li>
-              </ul>
+              <p className="mil-text-m mil-soft mil-mb-60 mil-up">
+              In 2024, they collaborated to start VoyAgency, a travel agency focused on the needs of small businesses.
+              </p>
             </div>
             <div className="col-xl-6 mil-mb-80">
               <div className="mil-image-frame mil-up">
                 <img
-                  src="img/inner-pages/1.png"
+                  src="img/inner-pages/001.jpg"
                   alt="image"
                   className="mil-scale-img"
                   data-value-1={1}
@@ -70,7 +66,7 @@ const page = () => {
       </div>
       {/* features end */}
       {/* facts */}
-      <div className="mil-facts mil-p-0-130">
+      {/* <div className="mil-facts mil-p-0-130">
         <div className="container">
           <div className="row">
             <div className="col-xl-4 mil-sm-text-center mil-mb-30 mil-up">
@@ -102,10 +98,10 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* facts end */}
       {/* call to action */}
-      <div className="mil-cta mil-up">
+      {/* <div className="mil-cta mil-up">
         <div className="container">
           <div className="mil-out-frame mil-p-160-100">
             <div className="row justify-content-center mil-text-center">
@@ -164,10 +160,10 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* call to action end */}
       {/* features */}
-      <div className="mil-features mil-p-160-80">
+      {/* <div className="mil-features mil-p-160-80">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
             <div className="col-xl-6 mil-mb-80">
@@ -215,9 +211,65 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* features end */}
       {/* team */}
+      <div className="mil-features mil-p-0-80">
+        <div className="container">
+          <div className="row justify-content-between align-items-center">
+            <div className="col-xl-5 mil-mb-80">
+              <h2 className="mil-mb-30 mil-up">
+              Corporate Perks for Small Business 
+              </h2>
+              <p className="mil-text-m mil-soft mil-mb-60 mil-up">
+              You don’t need to be IBM, to get the same corporate deals! VoyAgency through it’s 
+              revolutionary platform will get you the same deals (or even better!).   
+              </p>
+              <ul className="mil-list-2 mil-type-2">
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">We offer business travel solutions for solopreneurs, entrepreneurs, and small business owners.</h5>
+                    <p className="mil-text-m mil-soft">
+                     Reliable, value for money service  
+                    </p>
+                    <p className="mil-text-m mil-soft">
+                     Low service fees, more savings  
+                    </p>
+                    <p className="mil-text-m mil-soft">
+                    Latest technology to empower the traveler. 
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">Our Philosophy</h5>
+                    <p className="mil-text-m mil-soft">
+                    Seamless pre and post trip booking experience. 
+                    </p>
+                    <p className="mil-text-m mil-soft">
+                    Empower the small business owner.  
+                    </p>
+                    <p className="mil-text-m mil-soft">
+                    Balance of human touch and technology. 
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="col-xl-6 mil-mb-80">
+              <div className="mil-image-frame mil-up">
+                <img
+                  src="img/inner-pages/002.jpg"
+                  alt="image"
+                  className="mil-scale-img"
+                  data-value-1={1}
+                  data-value-2="1.2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="mil-cta mil-up">
         <div className="container">
           <div className="mil-out-frame mil-visible mil-image mil-p-160-130">
@@ -295,52 +347,9 @@ const page = () => {
       </div>
       {/* team */}
       {/* quote */}
-      <div className="mil-quote mil-p-160-130">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-10">
-              <h2 className="mil-mb-30">
-                "At Plax, transparency is not just a promise; It is the
-                cornerstone of our relationship with you. We believe that trust
-                is built with clear policies and coherent actions."
-              </h2>
-              <p className="mil-text-m mil-soft mil-mb-60">- Plax Team</p>
-              <div className="row">
-                <div className="col-xl-6">
-                  <ul className="mil-list-2 mil-type-2 mil-mb-30">
-                    <li>
-                      <div className="mil-up">
-                        <h5 className="mil-mb-15">Privacy policies</h5>
-                        <p className="mil-text-m mil-soft">
-                          Your privacy is our priority. We never share your
-                          information with third parties without your express
-                          consent.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-xl-6">
-                  <ul className="mil-list-2 mil-type-2 mil-mb-30">
-                    <li>
-                      <div className="mil-up">
-                        <h5 className="mil-mb-15">Data protection</h5>
-                        <p className="mil-text-m mil-soft">
-                          We are committed to protecting your personal and
-                          financial data with the highest security measures
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       {/* quote end */}
       {/* call to action */}
-      <CallToAction2 />
+      {/* <CallToAction2 /> */}
       {/* call to action end */}
     </PlaxLayout>
   );

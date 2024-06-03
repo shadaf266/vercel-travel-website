@@ -19,7 +19,7 @@ const Header = ({ dark }) => {
       <div className="container">
         <Link href="/" className="mil-logo">
           <img
-            src={dark ? "img/logo-light.png" : "img/logo.png"}
+            src={dark ? "img/logo-light.png" : "img/Logo-01.png"}
             alt="Plax"
             className="logo-img"
           />
@@ -104,9 +104,9 @@ const Header = ({ dark }) => {
                 </li>
               </ul>
             </li>
-            {/* <li className={`${activeMenuFuntion(["about"])}`}>
+            <li className={`${activeMenuFuntion(["about"])}`}>
               <Link href="about">About</Link>
-            </li> */}
+            </li>
             <li
               className={`mil-has-children ${activeMenuFuntion([
                 "blog",

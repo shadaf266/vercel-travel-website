@@ -16,12 +16,12 @@ export default Footer;
 
 const Footer1 = ({ bg = true, margin = 160 }) => {
   return (
-    <footer className={`${bg ? "mil-footer-with-bg" : ""} mil-p-${margin}-0 `}>
+    <footer className={`${bg ? "mil-footer-with-bg" : "mil-footer-with-bg"} mil-p-${margin}-0 `}>
       <div className="container">
         <div className="row">
           <div className="col-xl-3">
             <a href="#." className="mil-footer-logo mil-mb-60">
-              <img src="img/logo.png" alt="Plax" />
+              <img src="img/Logo-01.png" alt="Plax" />
             </a>
           </div>
           <div className="col-xl-3 mil-mb-60">
@@ -84,8 +84,13 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
           <div className="row">
             <div className="col-xl-12">
               <p className="mil-text-s text-center mil-soft">
-              © 2024 by VoyAgency Inc. All Rights Reserved.
+              © 2024 VoyAgency Technology Limited. All Rights Reserved.  
               </p>
+              <p className="mil-text-sm text-center mil-soft">
+                VoyAgency is a travel technology company and not a travel agency. It provides travel 
+               services, including flight and hotel reservations in partnership with other travel 
+               agencies, airlines, hotels and other travel vendors. 
+               </p>
             </div>
             {/* <div className="col-xl-6">
               <p className="mil-text-s mil-text-right mil-sm-text-left mil-soft">
