@@ -31,7 +31,7 @@ const page = () => {
       </div>
       {/* banner end */}
       {/* features */}
-      <div className="mil-features mil-p-0-80">
+      <div className="mil-features">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
@@ -214,44 +214,90 @@ const page = () => {
       </div> */}
       {/* features end */}
       {/* team */}
-      <div className="mil-features mil-p-0-80">
+      <div className="mil-features">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-            <div className="col-xl-5 mil-mb-80">
-              <h2 className="mil-mb-30 mil-up">
-              Corporate Perks for Small Business 
-              </h2>
-              <p className="mil-text-m mil-soft mil-mb-60 mil-up">
+          <div className="col-xl-6 mil-mb-80">
+              <div className="mil-image-frame mil-up">
+                <img
+                  src="img/inner-pages/002.jpg"
+                  alt="image"
+                  className="mil-scale-img"
+                  data-value-1={1}
+                  data-value-2="1.2"
+                />
+              </div>
+            </div>
+          <div className="col-xl-6 mil-mb-80">
+              <h2 className="mil-mb-30 mil-up">Corporate Perks for Small Business</h2>
+              <p className="mil-text-m mil-soft mil-up">
               You don’t need to be IBM, to get the same corporate deals! VoyAgency through it’s 
-              revolutionary platform will get you the same deals (or even better!).   
+              revolutionary platform will get you the same deals (or even better!). 
               </p>
+              <p className="mil-text-m mil-soft mil-up">We offer business travel solutions for solopreneurs, entrepreneurs, and small business owners.</p>
               <ul className="mil-list-2 mil-type-2">
                 <li>
                   <div className="mil-up">
-                    <h5 className="mil-mb-15">We offer business travel solutions for solopreneurs, entrepreneurs, and small business owners.</h5>
-                    <p className="mil-text-m mil-soft">
-                     Reliable, value for money service  
-                    </p>
-                    <p className="mil-text-m mil-soft">
-                     Low service fees, more savings  
-                    </p>
-                    <p className="mil-text-m mil-soft">
-                    Latest technology to empower the traveler. 
-                    </p>
+                    <h5 className="mil-mb-15">Reliable, value for money service</h5>
                   </div>
                 </li>
                 <li>
                   <div className="mil-up">
-                    <h5 className="mil-mb-15">Our Philosophy</h5>
-                    <p className="mil-text-m mil-soft">
-                    Seamless pre and post trip booking experience. 
-                    </p>
-                    <p className="mil-text-m mil-soft">
-                    Empower the small business owner.  
-                    </p>
-                    <p className="mil-text-m mil-soft">
-                    Balance of human touch and technology. 
-                    </p>
+                    <h5 className="mil-mb-15">Low service fees, more savings</h5>
+                  </div>
+                </li>
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">Latest technology to empower the traveler.</h5>
+                  </div>
+                </li>
+              </ul>
+              <p className="mil-text-m mil-soft mil-mt-30 mil-up">Our Philosophy</p>
+               <ul className="mil-list-2 mil-type-2">
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">Seamless pre and post trip booking experience.</h5>
+                  </div>
+                </li>
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">Empower the small business owner.</h5>
+                  </div>
+                </li>
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">Balance of human touch and technology.</h5>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="mil-features">
+        <div className="container">
+          <div className="row justify-content-between align-items-center">
+          <div className="col-xl-6 mil-mb-80">
+              <h2 className="mil-mb-30 mil-up">Corporate Perks for Small Business</h2>
+              <p className="mil-text-m mil-soft mil-up">
+              You don’t need to be IBM, to get the same corporate deals! VoyAgency through it’s 
+              revolutionary platform will get you the same deals (or even better!). 
+              </p>
+              <p className="mil-text-m mil-soft mil-mb-60 mil-up">Our Philosophy</p>
+              <ul className="mil-list-2 mil-type-2">
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">Seamless pre and post trip booking experience.</h5>
+                  </div>
+                </li>
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">Empower the small business owner.</h5>
+                  </div>
+                </li>
+                <li>
+                  <div className="mil-up">
+                    <h5 className="mil-mb-15">Balance of human touch and technology.</h5>
                   </div>
                 </li>
               </ul>
@@ -269,7 +315,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="mil-cta mil-up">
         <div className="container">
           <div className="mil-out-frame mil-visible mil-image mil-p-160-130">

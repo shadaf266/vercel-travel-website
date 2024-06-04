@@ -966,6 +966,13 @@ scrollbar
   justify-content: center;
   align-items: center;
 }
+.mil-logo-2 {
+  width: 140px !important;
+  height: 50px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
 a.mil-btn.signup-btn.mr-2.mil-sm {
   margin-left: 13px !important;
   margin-right: 13px !important;
@@ -3101,4 +3108,14 @@ footer.mil-footer-with-bg .mil-soft {
 
 .mil-text-sm.text-center.mil-soft {
 	font-size: 16px !important;
+}
+.mil-top-panel.mil-active .mil-logo-2 {
+  display: block;
+}
+.mil-top-panel.mil-active .mil-logo {
+  display: none;
+}
+
+.mil-top-panel .mil-logo-2 {
+  display:none;
 }
