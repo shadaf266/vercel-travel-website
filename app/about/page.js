@@ -34,7 +34,7 @@ const page = () => {
       <div className="mil-features">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-            <div className="col-xl-5 mil-mb-80">
+            <div className="col-xl-5">
               <h2 className="mil-mb-30 mil-up">
                 Evolution 
               </h2>
@@ -252,8 +252,8 @@ const page = () => {
                   </div>
                 </li>
               </ul>
-              <p className="mil-text-m mil-soft mil-mt-30 mil-up">Our Philosophy</p>
-               <ul className="mil-list-2 mil-type-2">
+              {/* <p className="mil-text-m mil-soft mil-mt-30 mil-up">Our Philosophy</p> */}
+               {/* <ul className="mil-list-2 mil-type-2">
                 <li>
                   <div className="mil-up">
                     <h5 className="mil-mb-15">Seamless pre and post trip booking experience.</h5>
@@ -269,21 +269,20 @@ const page = () => {
                     <h5 className="mil-mb-15">Balance of human touch and technology.</h5>
                   </div>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="mil-features">
+      <div className="mil-features">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-          <div className="col-xl-6 mil-mb-80">
-              <h2 className="mil-mb-30 mil-up">Corporate Perks for Small Business</h2>
+          <div className="col-xl-6">
+              <h2 className="mil-mb-30 mil-up">Our Philosophy</h2>
               <p className="mil-text-m mil-soft mil-up">
               You don’t need to be IBM, to get the same corporate deals! VoyAgency through it’s 
               revolutionary platform will get you the same deals (or even better!). 
               </p>
-              <p className="mil-text-m mil-soft mil-mb-60 mil-up">Our Philosophy</p>
               <ul className="mil-list-2 mil-type-2">
                 <li>
                   <div className="mil-up">
@@ -302,10 +301,10 @@ const page = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-xl-6 mil-mb-80">
+                      <div className="col-xl-6 mil-mb-80">
               <div className="mil-image-frame mil-up">
                 <img
-                  src="img/inner-pages/002.jpg"
+                  src="img/inner-pages/29.jpg"
                   alt="image"
                   className="mil-scale-img"
                   data-value-1={1}
@@ -315,7 +314,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="mil-cta mil-up">
         <div className="container">
           <div className="mil-out-frame mil-visible mil-image mil-p-160-130">

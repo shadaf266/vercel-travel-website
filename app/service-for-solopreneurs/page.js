@@ -12,7 +12,7 @@ const page = () => {
 
       {/* banner end */}
       {/* service */}
-      <div className="mil-features mil-p-0-80">
+      <div className="mil-features">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
@@ -47,7 +47,7 @@ const page = () => {
       </div>
       {/* service end */}
       {/* service */}
-      <div className="mil-features mil-p-0-80">
+      <div className="mil-features">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
@@ -119,7 +119,7 @@ const page = () => {
       {/* service end */}
 
             {/* service */}
-            <div className="mil-features mil-p-0-80">
+            <div className="mil-features">
         <div className="container">
           <div className="row  justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
@@ -188,7 +188,7 @@ const page = () => {
       {/* service end */}
 
             {/* service */}
-            <div className="mil-features mil-p-0-80">
+            <div className="mil-features">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
@@ -258,7 +258,7 @@ const page = () => {
       {/* service end */}
 
             {/* service */}
-            <div className="mil-features mil-p-0-80">
+            <div className="mil-features">
         <div className="container">
           <div className="row  justify-content-between align-items-center">
             <div className="col-xl-5 mil-mb-80">
