@@ -280,8 +280,8 @@ const page = () => {
           <div className="col-xl-6">
               <h2 className="mil-mb-30 mil-up">Our Philosophy</h2>
               <p className="mil-text-m mil-soft mil-up">
-              You don’t need to be IBM, to get the same corporate deals! VoyAgency through it’s 
-              revolutionary platform will get you the same deals (or even better!). 
+               Our philosophy is to create an unparalleled travel experience 
+               by combining innovation with personalized service.
               </p>
               <ul className="mil-list-2 mil-type-2">
                 <li>
