@@ -3119,3 +3119,7 @@ footer.mil-footer-with-bg .mil-soft {
 .mil-top-panel .mil-logo-2 {
   display:none;
 }
+
+.mil-subscripe-form-footer input::placeholder {
+  color: #fff !important;
+}
