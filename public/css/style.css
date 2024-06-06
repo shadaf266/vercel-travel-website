@@ -2913,7 +2913,7 @@ footer.mil-footer-dark-2 .mil-footer-bottom {
 .search-container .search-toggle {
   width: 25px;
   height: 25px;
-  background-image: url('../img/search-sprite.svg');
+  background-image: url('../img/search-sprite.png');
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;

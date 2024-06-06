@@ -20,14 +20,14 @@ const Header = ({ dark }) => {
         <Link href="/" className="mil-logo">
           <img
             src={dark ? "img/logo-light.png" : "img/logo.png"}
-            alt="Plax"
+            alt="Voyagency"
             className="logo-img"
           />
         </Link>
         <Link href="/" className="mil-logo-2">
           <img
-            src={dark ? "img/logo-light.png" : "img/Logo-02.png"}
-            alt="Plax"
+            src={dark ? "img/logo-light.png" : "img/Logo-03.png"}
+            alt="Voyagency"
             className="logo-img-2"
           />
         </Link>
