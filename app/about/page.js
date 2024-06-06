@@ -38,7 +38,7 @@ const page = () => {
               <h2 className="mil-mb-30 mil-up">
                 Evolution 
               </h2>
-              <p className="mil-text-m mil-soft mil-mb-60 mil-up">
+              <p className="mil-text-m mil-soft  mil-up">
               Our co-founders, Vibhor and Rohit, know the pain points of a small business traveler.
               Vibhor runs a decade old travel agency in Toronto. He travels frequently for business, 
               across Canada and internationally. Rohit, on the other hand, was a business consultant 
@@ -277,7 +277,7 @@ const page = () => {
       <div className="mil-features">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-          <div className="col-xl-6">
+          <div className="col-xl-6 mil-mb-30">
               <h2 className="mil-mb-30 mil-up">Our Philosophy</h2>
               <p className="mil-text-m mil-soft mil-up">
                Our philosophy is to create an unparalleled travel experience 

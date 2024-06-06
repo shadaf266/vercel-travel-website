@@ -47,9 +47,9 @@ const page = () => {
       <div className="mil-features mil-p-0-80">
         <div className="container">
           <div className="row flex-sm-row-reverse justify-content-between align-items-center">
-            <div className="col-xl-6 mil-mb-80">
+            <div className="col-xl-6 mil-mb-50">
               <h2 className="mil-mb-30 mil-up">Product Features</h2>
-              <p className="mil-text-m mil-soft mil-mb-60 mil-up">
+              <p className="mil-text-m mil-soft mil-up">
               VoyAgency Inc. is a Calgary, Alberta based travel management company 
               the North American SMB market.
               </p>
@@ -91,7 +91,7 @@ const page = () => {
               </ul>
             </div>
             <div className="col-xl-6 mil-mb-80">
-              <div className="mil-image-frame">
+              <div className="mil-image-frame product-feature-img">
                 <img src="img/home-2/2.jpg" alt="image" className="mil-up" />
               </div>
             </div>

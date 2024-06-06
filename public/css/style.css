@@ -3123,3 +3123,13 @@ footer.mil-footer-with-bg .mil-soft {
 .mil-subscripe-form-footer input::placeholder {
   color: #fff !important;
 }
+
+.mil-image-frame.product-feature-img {
+	height: 600px;
+}
+
+.mil-mb-30 {
+	margin-bottom: 20px;
+	position: relative;
+	bottom: 24px;
+}
