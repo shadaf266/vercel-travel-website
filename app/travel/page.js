@@ -479,7 +479,7 @@ const page = () => {
       </div> */}
       {/* quote end */}
       {/* call to action */}
-      {/* <CallToAction2 /> */}
+      <CallToAction2 />
       {/* call to action end */}
     </PlaxLayout>
   );

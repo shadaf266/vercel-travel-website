@@ -34,13 +34,13 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
                 <Link href="about">About Us</Link>
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
-                <Link href="contact">Contact Us</Link>
+                <Link href="contact">Contact</Link>
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
                 <Link href="services">Services</Link>
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
-                <Link href="price">Pricing</Link>
+                <Link href="press">Press</Link>
               </li>
             </ul>
           </div>

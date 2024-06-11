@@ -10,16 +10,16 @@ const page = () => {
             <div className="col-xl-8">
               <div className="mil-banner-text mil-text-center">
                 <div className="mil-text-m mil-mb-20">Job Information</div>
-                <h1 className="mil-mb-60">Frontend Software Engineer</h1>
+                <h1 className="mil-mb-60">Corporate Travel Manager</h1>
                 <ul className="mil-breadcrumbs mil-pub-info mil-center">
                   <li>
-                    <Link href="home-3">Software Engineering</Link>
+                    <Link href="home-3">Travel Program Management</Link>
                   </li>
                   <li>
-                    <Link href="about">Office work</Link>
+                    <Link href="about">Cost Efficiency</Link>
                   </li>
                   <li>
-                    <Link href="about">Paris, France</Link>
+                    <Link href="about">New York, USA</Link>
                   </li>
                 </ul>
               </div>
@@ -35,11 +35,9 @@ const page = () => {
             <div className="col-xl-9">
               <h4 className="mil-mb-30 mil-up">Description:</h4>
               <p className="mil-text-m mil-soft mil-mb-60 mil-up">
-                As a Frontend Software Engineer at Plax, you will be responsible
-                for designing, developing and implementing attractive and
-                effective user interfaces. You will work closely with backend
-                designers and developers to ensure a smooth and enjoyable user
-                experience.
+                As a Travel Program Management at VoyAgency Inc, you will be responsible
+                for Manages travel programs for corporate clients, ensuring efficient and 
+                cost-effective travel arrangements.
               </p>
               <h4 className="mil-mb-30 mil-up">Your homework:</h4>
               <ul className="mil-text-mist mil-text-m mil-soft mil-mb-60">

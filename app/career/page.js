@@ -5,23 +5,23 @@ const page = () => {
   return (
     <PlaxLayout>
       <PageBanner pageName="Careers" title="Where your Talent Finds a Home" />
-      <div className="mil-features mil-p-0-80">
+      <div className="mil-features">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-            <div className="col-xl-5 mil-mb-80">
-              <h2 className="mil-mb-30 mil-up">
+            <div className="col-xl-5">
+              <h2 className="mil-up">
                 Be part of our Team of Experts
               </h2>
-              <p className="mil-text-m mil-soft mil-mb-60 mil-up">
+              <p className="mil-text-m mil-soft mil-up">
                 Explore exciting opportunities and discover how your career can
-                flourish at Plax.
+                flourish at VoyAgency Inc.
               </p>
               <ul className="mil-list-2">
                 <li>
                   <div className="mil-up">
-                    <h5 className="mil-mb-15">Innovation Culture</h5>
+                    <h5 className="">Innovation Culture</h5>
                     <p className="mil-text-m mil-soft">
-                      At Plax, we foster an environment of constant innovation.
+                      At VoyAgency Inc, we foster an environment of constant innovation.
                       Here, your creativity and passion combine to drive
                       industry-leading solutions.
                     </p>
@@ -29,21 +29,20 @@ const page = () => {
                 </li>
                 <li>
                   <div className="mil-up">
-                    <h5 className="mil-mb-15">Professional growth</h5>
+                    <h5 className="">Professional growth</h5>
                     <p className="mil-text-m mil-soft">
                       We offer opportunities for continued professional
-                      development. At Plax, you not only work on your job, but
-                      on your career. Training, mentoring and significant
-                      challenges await you.
+                      development. At VoyAgency Inc, you not only work on your job, but
+                      on your career.
                     </p>
                   </div>
                 </li>
               </ul>
             </div>
-            <div className="col-xl-6 mil-mb-80">
+            <div className="col-xl-6 mil-mb-0">
               <div className="mil-image-frame mil-up">
                 <img
-                  src="img/inner-pages/6.png"
+                  src="img/inner-pages/6.jpg"
                   alt="image"
                   className="mil-scale-img"
                   data-value-1={1}
@@ -69,7 +68,7 @@ const page = () => {
                 </p>
                 <div className="mil-up">
                   <Link
-                    href="register"
+                    href="/register"
                     className="mil-btn mil-md mil-add-arrow"
                   >
                     Register now
@@ -87,23 +86,23 @@ const page = () => {
           <div className="mil-text-center">
             <h2 className="mil-mb-60 mil-up">
               Explore Career <br />
-              Opportunities at Plax
+              Opportunities at VoyAgency Inc
             </h2>
           </div>
           <div className="mil-vacancie mil-mb-30 mil-up">
             <div className="mil-left">
               <h4 className="mil-mb-30">
-                International Business Development Specialist
+                Travel Consultant/Agent
               </h4>
               <p className="mil-text-m mil-soft mil-mb-30">
-                Develop and execute strategies to expand our presence in new
-                international markets.
+              Assists clients in planning and booking their travel arrangements, including flights, 
+              hotels, car rentals, and other travel-related services.
               </p>
-              <ul className="mil-tags">
-                <li>Business Development</li>
-                <li>Office work</li>
-                <li>Paris, France</li>
-              </ul>
+          <ul className="mil-tags">
+            <li>Client Assistance</li>
+            <li>Booking Coordination</li>
+            <li>Remote/Office</li>
+          </ul>
             </div>
             <div className="mil-right mil-up">
               <Link
@@ -116,16 +115,16 @@ const page = () => {
           </div>
           <div className="mil-vacancie mil-mb-30 mil-up">
             <div className="mil-left">
-              <h4 className="mil-mb-30">Frontend Software Engineer</h4>
+              <h4 className="mil-mb-30">Corporate Travel Manager</h4>
               <p className="mil-text-m mil-soft mil-mb-30">
-                Develop and execute strategies to expand our presence in new
-                international markets.
+              Manages travel programs for corporate clients, ensuring efficient and 
+              cost-effective travel arrangements.
               </p>
               <ul className="mil-tags">
-                <li>Business Development</li>
-                <li>Office work</li>
-                <li>Paris, France</li>
-              </ul>
+              <li>Travel Program Management</li>
+              <li>Cost Efficiency</li>
+              <li>New York, USA</li>
+             </ul>
             </div>
             <div className="mil-right mil-up">
               <Link
@@ -138,16 +137,16 @@ const page = () => {
           </div>
           <div className="mil-vacancie mil-mb-30 mil-up">
             <div className="mil-left">
-              <h4 className="mil-mb-30">Financial Data Analyst</h4>
+              <h4 className="mil-mb-30">Account Manager</h4>
               <p className="mil-text-m mil-soft mil-mb-30">
-                Develop and execute strategies to expand our presence in new
-                international markets.
+              Handles relationships with key corporate clients, ensuring their travel needs 
+              are met and providing ongoing support and solutions.
               </p>
               <ul className="mil-tags">
-                <li>Business Development</li>
-                <li>Office work</li>
-                <li>Paris, France</li>
-              </ul>
+              <li>Client Relationships</li>
+              <li>Service Support</li>
+              <li>London, UK</li>
+          </ul>
             </div>
             <div className="mil-right mil-up">
               <Link
@@ -160,16 +159,16 @@ const page = () => {
           </div>
           <div className="mil-vacancie mil-mb-30 mil-up">
             <div className="mil-left">
-              <h4 className="mil-mb-30">Digital Marketing Specialist</h4>
+              <h4 className="mil-mb-30">Travel Coordinator</h4>
               <p className="mil-text-m mil-soft mil-mb-30">
-                Develop and execute strategies to expand our presence in new
-                international markets.
+              Coordinates travel plans and itineraries for employees or clients, managing logistics 
+              and ensuring compliance with company policies.
               </p>
               <ul className="mil-tags">
-                <li>Business Development</li>
-                <li>Office work</li>
-                <li>Paris, France</li>
-              </ul>
+            <li>Itinerary Planning</li>
+            <li>Logistics Management</li>
+            <li>Remote</li>
+           </ul>
             </div>
             <div className="mil-right mil-up">
               <Link
@@ -182,16 +181,16 @@ const page = () => {
           </div>
           <div className="mil-vacancie mil-mb-60 mil-up">
             <div className="mil-left">
-              <h4 className="mil-mb-30">Information Security Engineer</h4>
+              <h4 className="mil-mb-30">Operations Manager</h4>
               <p className="mil-text-m mil-soft mil-mb-30">
-                Develop and execute strategies to expand our presence in new
-                international markets.
+              Oversees the daily operations of the travel agency, managing staff, processes, 
+              and ensuring quality service delivery.
               </p>
               <ul className="mil-tags">
-                <li>Business Development</li>
-                <li>Office work</li>
-                <li>Paris, France</li>
-              </ul>
+                <li>Daily Operations</li>
+                <li>Staff Management</li>
+                <li>Chicago, USA</li>
+             </ul>
             </div>
             <div className="mil-right mil-up">
               <Link

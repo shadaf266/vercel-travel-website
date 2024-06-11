@@ -10,11 +10,11 @@ const page = () => {
               <div className="mil-banner-text mil-text-center">
                 <div className="mil-text-m mil-mb-20">Blog</div>
                 <h1 className="mil-mb-60">
-                  The Benefits of Using Virtual Cards
+                  Travel Tips
                 </h1>
                 <ul className="mil-breadcrumbs mil-pub-info mil-center">
                   <li>
-                    <Link href="home-3">December 9, 2023</Link>
+                    <Link href="home-3">April , 2024</Link>
                   </li>
                   <li>
                     <Link href="about">48 Comments</Link>
@@ -36,72 +36,35 @@ const page = () => {
             <div className="col-xl-12">
               <div className="mil-pub-cover mil-up">
                 <img
-                  src="img/inner-pages/blog/2.png"
+                  src="img/inner-pages/blog/10.jpg"
                   alt="cover"
-                  className="mil-scale-img"
+                  className="scale-img"
                   data-value-1={1}
                   data-value-2="1.2"
                 />
               </div>
             </div>
             <div className="col-xl-9 mil-p-80-80">
-              <h2 className="mil-mb-60 mil-up">
-                Delving into the Era of Digital Finance
+              <h2 className="mil-mb-40 mil-up">
+               Top 10 Destinations for 2024
               </h2>
               <p className="mil-text-m mil-soft mil-mb-30 mil-up">
-                Discover how virtual cards are transforming the way we manage
-                our personal finances. This article thoroughly explores the
-                various benefits these innovative tools offer, from added
-                security to transaction flexibility. Join us as we explore the
-                future of digital transactions and how virtual cards are paving
-                the way.
+              We always want to know where people will travel next and which places are becoming 
+              very popular across the world very quickly. Now that we are 4 months into 2024, 
+              take a look at the top places that are seeing a huge increase in searches online.
+              From famous cities to the best beaches, here are the 10 destinations
+              that have seen the highest Google searches in the last 5 years. Pack your bags,
+              because these places will be in very high demand in 2024.
+              Let's find out which locations made it to the number one searched list 
+              and what makes them places that must be visited in the coming months. Okay, 
+              let's look at numbers 10 through 1 to see which places people searched 
+              most about on Google.
               </p>
+              <h4 className="mil-mb-40 mil-up">1. Kyoto, Japan</h4>
               <p className="mil-text-m mil-soft mil-mb-30 mil-up">
-                Virtual cards represent a significant evolution in the way we
-                manage our money. Beyond convenience, they offer an additional
-                layer of security, enabling safer transactions in an
-                ever-changing digital world. Discover how these cards are
-                setting the standard for the future of personal finances.
-              </p>
-              <p className="mil-text-m mil-soft mil-mb-60 mil-up">
-                To take a trivial example, which of us ever undertakes laborious
-                physical exercise, except to obtain some advantage from it? But
-                who has any right to find fault with a man who chooses to enjoy
-                a pleasure that has no annoying consequences, or one who avoids
-                a pain that produces no resultant pleasure? On the other hand,
-                we denounce with righteous indignation and dislike men who are
-                so beguiled and demoralized by the charms of pleasure of the
-                moment, so blinded by desire, that they cannot foresee
-              </p>
-              <div className="mil-mb-60 mil-up">
-                <blockquote className="mil-text-xl mil-mb-30">
-                  "With virtual cards, you're not just taking your wallet into
-                  the digital world, you're taking security and flexibility to
-                  new heights. We're seeing a revolutionary change in how we
-                  interact with money, and virtual cards are leading the way.”
-                </blockquote>
-                <p className="mil-text-m"> - Jill Martinsen</p>
-              </div>
-              <h4 className="mil-mb-60 mil-up">No one Rejects, Dislikes</h4>
-              <p className="mil-text-m mil-soft mil-mb-30 mil-up">
-                No one rejects, dislikes, or avoids pleasure itself, because it
-                is pleasure, but because those who do not know how to pursue
-                pleasure rationally encounter consequences that are extremely
-                painful. Nor again is there anyone who loves or pursues or
-                desires to obtain pain of itself, because it is pain, but
-                because occasionally circumstances occur in which toil and pain
-                can procure him some great pleasure. To take a trivial example,
-                which of us ever
-              </p>
-              <p className="mil-text-m mil-soft mil-up">
-                The wise man therefore always holds in these matters to this
-                principle of selection: he rejects pleasures to secure other
-                greater pleasures, or else he endures pains to avoid worse
-                pains.But I must explain to you how all this mistaken idea of
-                denouncing pleasure and praising pain was born and I will give
-                you a complete account of the system, and expound the actual
-                teachings of the great explorer of the truth, the master-builder
-                of human happiness.
+              Renowned for its timeless beauty, Kyoto offers a blend of ancient temples, 
+              serene gardens, and traditional tea houses. In 2024, it's particularly appealing with 
+              new cultural festivals and events celebrating Japan's rich heritage.
               </p>
             </div>
           </div>
@@ -109,9 +72,9 @@ const page = () => {
             <div className="col-sm-6 mil-up">
               <div className="mil-pub-cover mil-inner mil-mb-30">
                 <img
-                  src="img/inner-pages/blog/3.png"
+                  src="img/inner-pages/blog/21.jpg"
                   alt="cover"
-                  className="mil-scale-img"
+                  className="scale-img"
                   data-value-1={1}
                   data-value-2="1.2"
                 />
@@ -120,62 +83,368 @@ const page = () => {
             <div className="col-sm-6 mil-up">
               <div className="mil-pub-cover mil-inner mil-mb-30">
                 <img
-                  src="img/inner-pages/blog/4.png"
+                  src="img/inner-pages/blog/22.jpg"
                   alt="cover"
-                  className="mil-scale-img"
+                  className="scale-img"
                   data-value-1={1}
                   data-value-2="1.2"
                 />
               </div>
             </div>
           </div>
+          <div className="row">
+
+          <div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+          <div className="container">
+
+          <h4 className="mil-mb-40 mil-up">2. Reykjavik, Iceland</h4>
+              <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+              Dive into the vibrant energy of Reykjavik, your gateway to Iceland’s natural wonders. 
+              In 2024, witness the spectacular Northern Lights against 
+              the city's geothermal baths and volcanic landscapes.
+              </p>
+              </div>
+              </div>
+              </div>
+              <div className="row">
+            <div className="col-sm-6 mil-up">
+              <div className="mil-pub-cover mil-inner mil-mb-30">
+                <img
+                  src="img/inner-pages/blog/23.jpg"
+                  alt="cover"
+                  className="scale-img"
+                  data-value-1={1}
+                  data-value-2="1.2"
+                />
+              </div>
+            </div>
+            <div className="col-sm-6 mil-up">
+              <div className="mil-pub-cover mil-inner mil-mb-30">
+                <img
+                  src="img/inner-pages/blog/24.jpg"
+                  alt="cover"
+                  className="scale-img"
+                  data-value-1={1}
+                  data-value-2="1.2"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row">
+
+<div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+<div className="container">
+
+<h4 className="mil-mb-40 mil-up">3. Buenos Aires, Argentina</h4>
+    <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+    Embark on a journey through the passionate streets of Buenos Aires, known for tango and 
+    vibrant neighborhoods. In 2024, indulge in international cultural events, adding depth 
+    to your adventure.
+    </p>
+    </div>
+    </div>
+    </div>
+    <div className="row">
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/25.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/26.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+</div>
+<div className="row">
+
+<div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+<div className="container">
+
+<h4 className="mil-mb-40 mil-up">4. Cape Town, South Africa</h4>
+    <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+    Explore the breathtaking beauty of Cape Town with its iconic Table Mountain backdrop 
+    and stunning beaches. In 2024, delve into the city's thriving art scene and diverse 
+    culinary landscape.
+    </p>
+    </div>
+    </div>
+    </div>
+    <div className="row">
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/27.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/28.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+</div>
+<div className="row">
+
+<div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+<div className="container">
+
+<h4 className="mil-mb-40 mil-up">5. Seville, Spain</h4>
+    <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+    Discover the soul of Andalusia in Seville, where Flamenco and Moorish architecture enchant. 
+    In 2024, immerse yourself in the city's rich history and vibrant street life during 
+    the iconic Feria de Abril.
+    </p>
+    </div>
+    </div>
+    </div>
+    <div className="row">
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/29.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/30.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+</div>
+<div className="row">
+
+<div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+<div className="container">
+
+<h4 className="mil-mb-40 mil-up">6. Vancouver, Canada</h4>
+    <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+    Venture into the natural paradise of Vancouver, offering coastal scenery and outdoor adventures. 
+    In 2024, explore new hiking trails and expanded bike paths, from mountains to sea.
+    </p>
+    </div>
+    </div>
+    </div>
+    <div className="row">
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/31.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/32.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+</div>
+<div className="row">
+
+<div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+<div className="container">
+
+<h4 className="mil-mb-40 mil-up">7. Marrakech, Morocco</h4>
+    <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+    Lose yourself in the sensory delights of Marrakech's historic medina and bustling souks. In 2024, 
+    experience the city's cultural vibrancy through arts and crafts festivals.
+    </p>
+    </div>
+    </div>
+    </div>
+    <div className="row">
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/33.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/34.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+</div>
+<div className="row">
+
+<div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+<div className="container">
+
+<h4 className="mil-mb-40 mil-up">8. Sydney, Australia</h4>
+    <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+    Sail into Sydney's iconic harbor and be mesmerized by the Opera House. In 2024, immerse yourself 
+    in the city's cultural scene with events like the Sydney Festival, 
+    all against the backdrop of stunning beaches.
+    </p>
+    </div>
+    </div>
+    </div>
+    <div className="row">
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/35.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/36.jpeg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+</div>
+<div className="row">
+
+<div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+<div className="container">
+
+<h4 className="mil-mb-40 mil-up">9. Lisbon, Portugal</h4>
+    <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+    Wander through Lisbon's scenic hills and historic trams, serenaded by the sounds of Fado music. 
+    In 2024, discover new waterfront developments and cultural districts, 
+    blending tradition with modernity.
+    </p>
+    </div>
+    </div>
+    </div>
+    <div className="row">
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/37.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/38.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+</div>
+<div className="row">
+
+<div className="col-xl-9 mil-p-40-40 mx-auto justify-content-center">
+<div className="container">
+
+<h4 className="mil-mb-40 mil-up">10. Auckland, New Zealand</h4>
+    <p className="mil-text-m mil-soft mil-mb-30 mil-up">
+    Set foot in Auckland, your gateway to North Island adventures. In 2024, explore 
+    the vibrant waterfront, nearby vineyards, and beaches for an unforgettable journey.
+    </p>
+    </div>
+    </div>
+    </div>
+    <div className="row">
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/39.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+  <div className="col-sm-6 mil-up">
+    <div className="mil-pub-cover mil-inner mil-mb-30">
+      <img
+        src="img/inner-pages/blog/40.jpg"
+        alt="cover"
+        className="scale-img"
+        data-value-1={1}
+        data-value-2="1.2"
+      />
+    </div>
+  </div>
+</div>
           <div className="row justify-content-center">
             <div className="col-xl-9 mil-p-50-80">
-              <h4 className="mil-mb-60">
-                The obligations of Business it will Frequently
-              </h4>
-              <p className="mil-text-m mil-soft mil-mb-30 mil-up">
-                In a free hour, when our power of choice is untrammelled and
-                when nothing prevents our being able to do what we like best,
-                every pleasure is to be welcomed and every pain avoided. But in
-                certain circumstances and owing to the claims of duty or the
-                obligations of business it will frequently occur that pleasures
-                have to be repudiated and annoyances accepted. The wise man
-                therefore always holds in these matters to this principle of
-                selection: he rejects pleasures to secure other greater
-                pleasures, or else he endures pains to avoid worse pains.But I
-                must explain to you how all this mistaken idea of denouncing
-                pleasure and praising pain was born and I will give you a
-                complete account of the system, and expound the actual teachings
-                of the great explorer of the truth, the master-builder of human
-                happiness. No one rejects, dislikes, or avoids pleasure itself,
-                because it is pleasure, but because
-              </p>
-              <p className="mil-text-m mil-soft mil-mb-60 mil-up">
-                But I must explain to you how all this mistaken idea of
-                denouncing pleasure and praising pain was born and I will give
-                you a complete account of the system, and expound the actual
-                teachings of the great explorer of the truth, the master-builder
-                of human happiness. No one rejects, dislikes, or avoids pleasure
-                itself, because it is pleasure, but because those who do not
-                know how to pursue pleasure rationally encounter consequences
-                that are extremely painful. Nor again is there anyone who loves
-                or pursues or desires to obtain pain of itself, because it is
-                pain, but because occasionally circumstances occur in which toil
-                and pain can procure him some great pleasure.
-              </p>
               <ul className="mil-pup-tags mil-mb-80 mil-up">
                 <li>
                   <a href="#.">search</a>
                 </li>
                 <li>
-                  <a href="#.">virtual card</a>
+                  <a href="#.">Top 10</a>
                 </li>
                 <li>
-                  <a href="#.">digital finance</a>
+                  <a href="#.">Travel</a>
                 </li>
                 <li>
-                  <a href="#.">transaction flexibility</a>
+                  <a href="#.">Tour</a>
                 </li>
               </ul>
               <div className="mil-share-frame mil-mb-80 mil-up">
@@ -206,10 +475,10 @@ const page = () => {
                   <p className="mil-text-m mil-soft mil-mb-15">
                     Read next posts
                   </p>
-                  <h5>How to Optimize Business Payments with Plax Business</h5>
+                  <h5>How to Plan an Epic Hiking Trip</h5>
                 </Link>
                 <Link href="publication" className="mil-cover mil-up">
-                  <img src="img/inner-pages/blog/3.png" alt="cover" />
+                  <img src="img/inner-pages/blog/11.jpg" alt="cover" />
                   <i className="fas fa-arrow-right" />
                 </Link>
               </div>

@@ -88,26 +88,27 @@ const Header = ({ dark }) => {
             </li>
             <li
               className={`mil-has-children ${activeMenuFuntion([
-                "blog",
-                "publication",
+                // "blog",
+                // "publication",
+                "coming-soon"
               ])}`}
             >
-              <a href="#.">Solutions</a>
+              <a href="#">Solutions</a>
               <ul>
                 <li>
-                  <Link href="blog">Business</Link>
+                  <Link href="coming-soon">Business</Link>
                 </li>
                 <li>
-                  <Link href="publication">Travelers</Link>
+                  <Link href="coming-soon">Travelers</Link>
                 </li>
                 <li>
-                  <Link href="publication">Admins</Link>
+                  <Link href="coming-soon">Admins</Link>
                 </li>
                 <li>
-                  <Link href="publication">Finance</Link>
+                  <Link href="coming-soon">Finance</Link>
                 </li>
                 <li>
-                  <Link href="publication">Managers</Link>
+                  <Link href="coming-soon">Managers</Link>
                 </li>
               </ul>
             </li>
@@ -118,6 +119,7 @@ const Header = ({ dark }) => {
               className={`mil-has-children ${activeMenuFuntion([
                 "blog",
                 "publication",
+                "coming-soon",
               ])}`}
             >
               <a href="#.">Resources</a>
@@ -126,7 +128,7 @@ const Header = ({ dark }) => {
                   <Link href="blog">Blog</Link>
                 </li>
                 <li>
-                  <Link href="publication">Case Studies</Link>
+                  <Link href="coming-soon">Case Studies</Link>
                 </li>
               </ul>
             </li>
@@ -137,6 +139,7 @@ const Header = ({ dark }) => {
               className={`mil-has-children ${activeMenuFuntion([
                 "career",
                 "price",
+                "coming-soon",
                 "register",
               ])}`}
             >
@@ -146,10 +149,10 @@ const Header = ({ dark }) => {
                   <Link href="about">Team</Link>
                 </li>
                 <li>
-                  <Link href="career-details">Press</Link>
+                  <Link href="press">Press</Link>
                 </li>
                 <li>
-                  <Link href="price">Partners</Link>
+                  <Link href="coming-soon">Partners</Link>
                 </li>
                 <li>
                   <Link href="career">Careers</Link>
