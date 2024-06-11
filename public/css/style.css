@@ -3111,7 +3111,9 @@ footer.mil-footer-with-bg .mil-soft {
   color: #fff;
 }
 .mil-subscripe-form-footer button i.mil-dark {
-  color: #Fff !important;
+	color: #Fff !important;
+	position: relative;
+	left: 36%;
 }
 
 .mil-text-sm.text-center.mil-soft {
@@ -3188,4 +3190,12 @@ footer.mil-footer-with-bg .mil-soft {
 .col-xl-9.mil-p-40-40.mx-auto.justify-content-center {
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.error {
+	color: #ff6347;
+	padding: 10px 30px;
+	background-color: #f2fafa;
+	margin-top: 15px;
+	border-radius: 20px;
 }

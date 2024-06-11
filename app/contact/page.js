@@ -131,7 +131,7 @@ const Page = () => {
     if (!validateForm()) return;
 
     try {
-      const response = await fetch('./form-handler.js', {
+      const response = await fetch('../api/contact_form_handler', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
