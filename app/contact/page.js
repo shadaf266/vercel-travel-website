@@ -110,6 +110,7 @@ const Page = () => {
       ...formData,
       [e.target.name]: e.target.value
     });
+    validateForm()
   };
 
   const validateForm = () => {
@@ -129,14 +130,22 @@ const Page = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validateForm()) return;
-
+    const payload={
+      "organization_mail_id":"meetri.test@gmail.com",
+      "name":formData.name,
+      "complainant_mail":formData.email,
+      "complainent_number":"0000000000",
+      "description":formData.message,
+      "query_type":formData.subject
+    }
+    
     try {
-      const response = await fetch('../api/contact_form_handler', {
+      const response = await fetch('https://kbapigate.meetri.in/api/contact-us', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(payload)
       });
 
       const result = await response.json();
