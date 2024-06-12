@@ -3203,3 +3203,30 @@ footer.mil-footer-with-bg .mil-soft {
 .coming-soon-wrapper {
 	padding-bottom: 80px;
 }
+
+
+
+.alert-success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #F15A29;
+  color: #fff !important;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.alert-success h5 {
+  margin-bottom: 0 !important;
+}
+
+.alert-danger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background:#fb4143;
+  color: #fff !important;
+  border-radius: 20px;
+  margin-top: 10px;
+}

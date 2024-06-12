@@ -120,6 +120,7 @@ const Header = ({ dark }) => {
                 "blog",
                 "publication",
                 "coming-soon",
+                "case-studies",
               ])}`}
             >
               <a href="#.">Resources</a>
@@ -128,7 +129,7 @@ const Header = ({ dark }) => {
                   <Link href="blog">Blog</Link>
                 </li>
                 <li>
-                  <Link href="coming-soon">Case Studies</Link>
+                  <Link href="case-studies">Case Studies</Link>
                 </li>
               </ul>
             </li>
@@ -141,6 +142,7 @@ const Header = ({ dark }) => {
                 "price",
                 "coming-soon",
                 "register",
+                "partners",
               ])}`}
             >
               <a href="#.">Company </a>
@@ -152,7 +154,7 @@ const Header = ({ dark }) => {
                   <Link href="press">Press</Link>
                 </li>
                 <li>
-                  <Link href="coming-soon">Partners</Link>
+                  <Link href="partners">Partners</Link>
                 </li>
                 <li>
                   <Link href="career">Careers</Link>

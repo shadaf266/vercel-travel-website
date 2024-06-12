@@ -84,3 +84,53 @@ export const CallToAction2 = () => {
     </div>
   );
 };
+
+
+export const CallToAction3 = () => {
+  return (
+    <div className="mil-cta mil-up" style={{ position: "relative" }}>
+      <div className="container">
+        <div
+          className="mil-out-frame mil-p-160-160"
+          style={{
+            backgroundImage: "url(img/home-3/6.jpg)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            position: "relative",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust the color and opacity as needed
+            }}
+          ></div>
+          <div className="row justify-content-between align-items-center" style={{ position: "relative", zIndex: 1 }}>
+            <div className="col-xl-12 mil-sm-text-center">
+              <h2 className="mil-light mil-mb-0 mil-up">
+              Join Our Network
+              </h2>
+              <p className="mil-text-m mil-mb-40 mil-light mil-up">
+              If you are interested in becoming a partner and joining our network of esteemed collaborators,
+              we would love to hear from you. Together, we can create exceptional 
+              travel solutions that benefit businesses and travelers alike.
+              </p>
+              <div className="mil-up mil-mb-60">
+                <Link
+                  href="/contact"
+                  className="mil-btn mil-button-transform mil-md mil-add-arrow"
+                >
+             Contact us                
+            </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

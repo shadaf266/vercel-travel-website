@@ -146,7 +146,8 @@ const Page = () => {
       const result = await response.json();
       if (result.status === 'success') {
         setError('')
-        setResponseMessage('Thanks, your message is sent successfully.');
+        // setResponseMessage('Thank you for your message. We will be in touch soon.');
+        alert('Thank you for your message. We will be in touch soon.')
         setFormData(defaultValue)
       } else {
         setError('An error occurred. Please try again.');
