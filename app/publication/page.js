@@ -483,7 +483,7 @@ const page = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-xl-9">
+            {/* <div className="col-xl-9">
               <h4 className="mil-mb-60 mil-up">(48) Comments</h4>
               <ul className="mil-comments mil-mb-80">
                 <li>
@@ -717,7 +717,7 @@ const page = () => {
                   </button>
                 </div>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

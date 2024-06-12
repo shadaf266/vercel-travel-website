@@ -1,10 +1,13 @@
 import { Fragment } from "react";
+import PlaxLayout from "@/layouts/PlaxLayout";
+
 const page = () => {
   return (
+    <PlaxLayout bg={false}>
     <Fragment>
-      <div id="smooth-wrapper" className="mil-wrapper">
+      <div id="smooth-wrapper" className="mil-wrapper coming-soon-wrapper">
         {/* preloader */}
-        <div className="mil-preloader">
+        {/* <div className="mil-preloader">
           <div className="mil-load" />
           <p className="h2 mil-mb-30">
             <span className="mil-light mil-counter" data-number={100}>
@@ -12,15 +15,15 @@ const page = () => {
             </span>
             <span className="mil-light">%</span>
           </p>
-        </div>
+        </div> */}
         {/* preloader end */}
         {/* scroll progress */}
-        <div className="mil-progress-track">
+        {/* <div className="mil-progress-track">
           <div className="mil-progress" />
-        </div>
+        </div> */}
         {/* scroll progress end */}
         {/* back to top */}
-        <div className="progress-wrap active-progress" />
+        {/* <div className="progress-wrap active-progress" /> */}
         {/* content */}
         <div id="smooth-content">
           {/* banner */}
@@ -57,6 +60,7 @@ const page = () => {
         {/* content end */}
       </div>
     </Fragment>
+    </PlaxLayout>
   );
 };
 export default page;
