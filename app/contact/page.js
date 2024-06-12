@@ -131,7 +131,7 @@ const Page = () => {
     e.preventDefault();
     if (!validateForm()) return;
     const payload={
-      "organization_mail_id":"meetri.test@gmail.com",
+      "organization_mail_id":"shadafsiddiqui5@gmail.com",
       "name":formData.name,
       "complainant_mail":formData.email,
       "complainent_number":"0000000000",
@@ -140,7 +140,7 @@ const Page = () => {
     }
     
     try {
-      const response = await fetch('https://kbapigate.meetri.in/api/contact-us', {
+      const response = await fetch('../api/mail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
