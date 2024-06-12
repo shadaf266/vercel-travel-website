@@ -17,8 +17,8 @@ export async function POST(request) {
         },
 
         auth: {
-            user: user_email,
-            pass: password
+            user: user_email ?? 'meetri.test@gmail.com',
+            pass: password ?? 'sjfvznswfdkodxic'
         }
     });
 
