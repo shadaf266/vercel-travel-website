@@ -1,9 +1,10 @@
 import { PageBanner } from "@/components/Banner";
+import Link from "next/link";
 import PlaxLayout from "@/layouts/PlaxLayout";
 const page = () => {
   return (
     <PlaxLayout noFooter>
-      <PageBanner pageName="Register" title="Register with Voyagency inc:" />
+      <PageBanner pageName="Login" title="Login with Voyagency inc:" />
       {/* register form */}
       <div className="mil-blog-list mip-p-0-160">
         <div className="container">
@@ -13,30 +14,21 @@ const page = () => {
                 <input
                   className="mil-input mil-up mil-mb-15"
                   type="text"
-                  placeholder="Full name"
-                />
-                <input
-                  className="mil-input mil-up mil-mb-15"
-                  type="email"
-                  placeholder="Your e-mail"
+                  placeholder="Email / Mobile Number"
                 />
                 <input
                   className="mil-input mil-up mil-mb-15"
                   type="password"
                   placeholder="Password"
                 />
-                <input
-                  className="mil-input mil-up mil-mb-15"
-                  type="password"
-                  placeholder="Confirm Password"
-                />
                 <div className="mil-up mil-mb-30 mil-mt-30">
                   <button type="submit" className="mil-btn mil-md mil-fw">
-                    Create Account
+                    Login
                   </button>
                 </div>
                 <p className="mil-text-xs mil-text-center mil-soft mil-mb-30">
-                  Or Register with:
+                
+                    Or Register with: <Link className="link" href="register">Sign Up</Link>
                 </p>
                 <div className="mil-up mil-mb-15">
                   <a

@@ -190,7 +190,7 @@ const Header = ({ dark }) => {
           <Link href="register" className="mil-btn signup-desktop mr-2 mil-sm">
             Sign Up
           </Link>
-          <Link href="register" className="mil-btn signup-desktop mil-sm">
+          <Link href="register-login" className="mil-btn signup-desktop mil-sm">
             Log in
           </Link>
           <div className="search-container mobile">

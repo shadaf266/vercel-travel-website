@@ -3230,3 +3230,8 @@ footer.mil-footer-with-bg .mil-soft {
   border-radius: 20px;
   margin-top: 10px;
 }
+
+.link {
+	color: #2B3990;
+	font-weight: 600;
+}
