@@ -93,14 +93,16 @@ import { PageBanner } from "@/components/Banner";
 import { CallToAction2 } from "@/components/CallToAction";
 import PlaxLayout from "@/layouts/PlaxLayout";
 
-const Page = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
+const defaultValue = {
+  name: '',
+  email: '',
+  subject: '',
+  message: ''
+}
 
+const Page = () => {
+  const [formData, setFormData] = useState(defaultValue);
+  const [loading, setLoading] = useState(false)
   const [errors, setErrors] = useState({});
   const [responseMessage, setResponseMessage] = useState('');
   const [error, setError] = useState('');
@@ -130,31 +132,28 @@ const Page = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validateForm()) return;
-    const payload={
-      "organization_mail_id":"shadafsiddiqui5@gmail.com",
-      "name":formData.name,
-      "complainant_mail":formData.email,
-      "complainent_number":"0000000000",
-      "description":formData.message,
-      "query_type":formData.subject
-    }
-    
+
     try {
-      const response = await fetch('../api/mail', {
-        method: 'POST',
+      setLoading(true)
+      const response = await fetch('/api/sendmail', {
+        method: "POST",
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(payload)
+        body: JSON.stringify(formData)
       });
 
       const result = await response.json();
       if (result.status === 'success') {
+        setError('')
         setResponseMessage('Thanks, your message is sent successfully.');
+        setFormData(defaultValue)
       } else {
         setError('An error occurred. Please try again.');
       }
+      setLoading(false)
     } catch (err) {
+      setLoading(false)
       setError('An error occurred. Please try again.');
     }
   };
@@ -218,7 +217,7 @@ const Page = () => {
                   </div>
                 </div>
                 <div className="mil-up">
-                  <button type="submit" className="mil-btn mil-m">
+                  <button type="submit" className="mil-btn mil-m" disabled={loading}>
                     Send Message
                   </button>
                 </div>
