@@ -1,6 +1,7 @@
 import { Questrial } from 'next/font/google'
 import Head from 'next/head'; // Import Head from next/head
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import "@fonts/css/switzer.css";
 import "./globals.css";
 
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
       <body>
         <Preloader />
         {children}
+        <ToastContainer />
       </body>
     </html>
   );

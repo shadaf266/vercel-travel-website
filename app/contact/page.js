@@ -92,6 +92,8 @@ import React, { useState } from 'react';
 import { PageBanner } from "@/components/Banner";
 import { CallToAction2 } from "@/components/CallToAction";
 import PlaxLayout from "@/layouts/PlaxLayout";
+import { toast } from 'react-toastify';
+
 
 const defaultValue = {
   name: '',
@@ -142,19 +144,17 @@ const Page = () => {
         },
         body: JSON.stringify(formData)
       });
-
       const result = await response.json();
       if (result.status === 'success') {
-        setError('')
-        // setResponseMessage('Thank you for your message. We will be in touch soon.');
-        alert('Thank you for your message. We will be in touch soon.')
-        setFormData(defaultValue)
+        setError('');
+        toast.success('Thank you for your message.');
+        setFormData(defaultValue);
       } else {
         setError('An error occurred. Please try again.');
       }
-      setLoading(false)
+      setLoading(false);
     } catch (err) {
-      setLoading(false)
+      setLoading(false);
       setError('An error occurred. Please try again.');
     }
   };

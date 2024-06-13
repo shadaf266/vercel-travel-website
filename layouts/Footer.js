@@ -22,34 +22,34 @@ export default Footer;
 const Footer1 = ({ bg = true, margin = 160 }) => {
   const [subscriptionMail, setSubscriptionMail] = useState('')
 
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-    if (!subscriptionMail) {
-      return
-    }
-    const formData = {
-      name: '',
-      email: subscriptionMail,
-      subject: 'Welcome to VoyAgency - Your Ultimate Travel Technology Partner!',
-      message: '<p>We are delighted to welcome you to the VoyAgency family. As a subscriber, you now have access to exclusive travel deals, insider tips, and personalized recommendations to make your next adventure unforgettable.</p>'
-    }
-    try {
-      const response = await fetch('/api/sendmail', {
-        method: "POST",
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
-      });
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault()
+  //   if (!subscriptionMail) {
+  //     return
+  //   }
+  //   const formData = {
+  //     name: '',
+  //     email: subscriptionMail,
+  //     subject: 'Welcome to VoyAgency - Your Ultimate Travel Technology Partner!',
+  //     message: '<p>We are delighted to welcome you to the VoyAgency family. As a subscriber, you now have access to exclusive travel deals, insider tips, and personalized recommendations to make your next adventure unforgettable.</p>'
+  //   }
+  //   try {
+  //     const response = await fetch('/api/sendmail', {
+  //       method: "POST",
+  //       headers: {
+  //         'Content-Type': 'application/json'
+  //       },
+  //       body: JSON.stringify(formData)
+  //     });
 
-      const result = await response.json();
-      if (result.status === 'success') {
-        alert('Thanks, your message is sent successfully.');
-        setSubscriptionMail('')
-      }
-    } catch (err) {
-    }
-  }
+  //     const result = await response.json();
+  //     if (result.status === 'success') {
+  //       alert('Thanks, your message is sent successfully.');
+  //       setSubscriptionMail('')
+  //     }
+  //   } catch (err) {
+  //   }
+  // }
 
   return (
     <footer className={`${bg ? "mil-footer-with-bg" : "mil-footer-with-bg"} mil-p-${margin}-0 `}>
@@ -99,8 +99,8 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
             <p className="mil-text-xs mil-soft mil-mb-15">
               Subscribe to get the latest news form us
             </p>
-            <form id="subscribeForm" className="mil-subscripe-form-footer" onSubmit={handleSubmit}>
-              <input className="mil-input" name="EMAIL" value={subscriptionMail} type="email" placeholder="Email" autocomplete="off" onChange={(e) => setSubscriptionMail(e.target.value)} />
+            <form id="subscribeForm" className="mil-subscripe-form-footer">
+              <input className="mil-input" name="EMAIL" type="email" placeholder="Email" autocomplete="off" />
               <button type="submit">
                 <i className="far fa-envelope-open mil-dark" />
               </button>

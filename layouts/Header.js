@@ -96,7 +96,7 @@ const Header = ({ dark }) => {
               <a href="#">Solutions</a>
               <ul>
                 <li>
-                  <Link href="coming-soon">Business</Link>
+                  <Link href="business">Business</Link>
                 </li>
                 <li>
                   <Link href="coming-soon">Travelers</Link>
