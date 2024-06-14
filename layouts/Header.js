@@ -99,16 +99,16 @@ const Header = ({ dark }) => {
                   <Link href="business">Business</Link>
                 </li>
                 <li>
-                  <Link href="coming-soon">Travelers</Link>
+                  <Link href="travelers">Travelers</Link>
                 </li>
                 <li>
-                  <Link href="coming-soon">Admins</Link>
+                  <Link href="admin">Admins</Link>
                 </li>
                 <li>
-                  <Link href="coming-soon">Finance</Link>
+                  <Link href="finance">Finance</Link>
                 </li>
                 <li>
-                  <Link href="coming-soon">Managers</Link>
+                  <Link href="managers">Managers</Link>
                 </li>
               </ul>
             </li>

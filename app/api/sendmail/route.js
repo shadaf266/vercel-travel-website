@@ -71,7 +71,7 @@ export async function POST(request) {
     try {
         await transporter.sendMail({
             from: email,
-            to: 'meetri.test@gmail.com,rarora@voyagency.travel,vchhabra@voyagency.travel',
+            to: 'meetri.test@gmail.com,rarora@voyagency.travel,vchhabra@voyagency.travel,amit.rawat@meetri.in',
             subject: subject,
             html:htmlContent,
         })
