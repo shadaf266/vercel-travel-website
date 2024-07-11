@@ -7,7 +7,7 @@ const page = () => {
     <PlaxLayout bg={false}>
       <PageBanner
         title="Business Travel Admin Management Solutions"
-        pageName="Admin"
+        pageName="Office Admins"
       />
 
       {/* banner end */}

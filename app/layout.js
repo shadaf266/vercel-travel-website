@@ -28,7 +28,7 @@ const secondary_font = Questrial({
 })
 
 export const metadata = {
-  title: "Voyagency - Explore the World with Unforgettable Journeys",
+  title: " VoyAgency | Travel Management for Small Businesses",
   description: "Quadcan Solutions Inc. is a Toronto, Canada based government-to-citizen (G2C) solutions innovator. We closely work with the government agencies to provide solutions around public security, immigration and border services, and airport passenger facilitation. All solutions focus on the providing an exceptional service level to the citizen.",
 };
 
@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" /> {/* Add this line */}
       </Head>
       <body>
-        <Preloader />
+        {/* <Preloader /> */}
         {children}
         <ToastContainer />
       </body>

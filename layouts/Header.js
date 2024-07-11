@@ -40,7 +40,7 @@ const Header = ({ dark }) => {
                   : ""
               }`}
             >
-              <a href="/" className="home-active">Home</a>
+              {/* <a href="/" className="home-active">Home</a> */}
               {/* <ul>
                 <li>
                   <Link href="/">Type 1</Link>
@@ -68,22 +68,27 @@ const Header = ({ dark }) => {
               ])}`}
             >
               <a href="#">Services</a>
-              <ul>
+              <ul className="service-menu">
+                <div className="menu-row-list-1">
+                  <span className="menu-label">Tailored Solutions</span>
+                <li>
+                  <Link href="service-for-solopreneurs">For Solopreneurs</Link>
+                </li>
+                <li>
+                  <Link href="service-for-solopreneurs">For Professionals</Link>
+                </li>
+                <li>
+                  <Link href="service-for-solopreneurs">For Small Businesses</Link>
+                </li>
+                </div>
+                <div className="menu-row-list-2">
                 <li>
                   <Link href="travel">Business Travel</Link>
                 </li>
                 <li>
                   <Link href="services-expense-management">Expense Management</Link>
                 </li>
-                <li>
-                  <Link href="service-for-solopreneurs">Tailored Travel Solutions for Solopreneurs</Link>
-                </li>
-                <li>
-                  <Link href="service-for-solopreneurs">Tailored Travel Solutions for Professionals</Link>
-                </li>
-                <li>
-                  <Link href="service-for-solopreneurs">Tailored Travel Solutions for Growing Businesses</Link>
-                </li>
+                </div>
               </ul>
             </li>
             <li
@@ -96,26 +101,26 @@ const Header = ({ dark }) => {
               <a href="#">Solutions</a>
               <ul>
                 <li>
-                  <Link href="business">Business</Link>
-                </li>
-                <li>
                   <Link href="travelers">Travelers</Link>
                 </li>
+                {/* <li>
+                  <Link href="business">Business</Link>
+                </li> */}
                 <li>
-                  <Link href="admin">Admins</Link>
+                  <Link href="admin">Office Admins</Link>
                 </li>
                 <li>
-                  <Link href="finance">Finance</Link>
+                  <Link href="finance">Finance Managers</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="managers">Managers</Link>
-                </li>
+                </li> */}
               </ul>
             </li>
-            <li className={`${activeMenuFuntion(["about"])}`}>
+            {/* <li className={`${activeMenuFuntion(["about"])}`}>
               <Link href="about">About</Link>
-            </li>
-            <li
+            </li> */}
+            {/* <li
               className={`mil-has-children ${activeMenuFuntion([
                 "blog",
                 "publication",
@@ -132,7 +137,7 @@ const Header = ({ dark }) => {
                   <Link href="case-studies">Case Studies</Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
             {/* <li className={`${activeMenuFuntion(["contact"])}`}>
               <Link href="contact">Contact</Link>
             </li> */}
@@ -147,8 +152,11 @@ const Header = ({ dark }) => {
             >
               <a href="#.">Company </a>
               <ul>
-                <li>
-                  <Link href="about">Team</Link>
+              <li className={`${activeMenuFuntion(["about"])}`}>
+              <Link href="about">About</Link>
+              </li>
+              <li>
+                  <Link href="blog">Blog</Link>
                 </li>
                 <li>
                   <Link href="press">Press</Link>
@@ -157,19 +165,19 @@ const Header = ({ dark }) => {
                   <Link href="partners">Partners</Link>
                 </li>
                 <li>
-                  <Link href="career">Careers</Link>
+                  <Link href="contact">Contact</Link>
                 </li>
                 <li>
-                  <Link href="contact">Contact</Link>
+                  <Link href="case-studies">Case Studies</Link>
                 </li>
               </ul>
             </li>
-            <Link href="register" className="mil-btn signup-btn mr-2 mb-2 mil-sm">
-            Sign Up
-           </Link>
-           <Link href="register" className="mil-btn signup-btn mr-2 mil-sm">
-            Log in
+            <Link href="register-login" className="mil-btn-link signup-btn mr-2 mil-sm">
+            Login
           </Link>
+            <Link href="register" className="mil-btn signup-btn mr-2 mb-2 mil-sm">
+            Get started
+           </Link>
           </ul>
           <div className="search-container desktop">
             <a className="search-toggle" onClick={handleToggle}>Search toggle</a>
@@ -187,12 +195,13 @@ const Header = ({ dark }) => {
         </div>
         </nav>
         <div className="mil-menu-buttons">
+        <Link href="register-login" className="mil-btn-link signup-desktop mil-sm">
+            Login
+          </Link>
           <Link href="register" className="mil-btn signup-desktop mr-2 mil-sm">
-            Sign Up
+           Get started
           </Link>
-          <Link href="register-login" className="mil-btn signup-desktop mil-sm">
-            Log in
-          </Link>
+
           <div className="search-container mobile">
             <a className="search-toggle" onClick={handleToggle}>Search toggle</a>
             <form className={`search ${isSearchVisible ? 'show-search' : ''}`} action="/">

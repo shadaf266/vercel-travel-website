@@ -64,19 +64,27 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
             <h6 className="mil-mb-60">Usefull Links</h6>
             <ul className="mil-footer-list">
               <li className="mil-text-m mil-soft mil-mb-15">
-                <Link href="/">Home</Link>
+                <Link href="travel">Business Travel</Link>
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
-                <Link href="about">About Us</Link>
+                <Link href="services-expense-management">Expense Management</Link>
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
-                <Link href="contact">Contact</Link>
+                <Link href="career">Careers</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col-xl-3 mil-mb-60">
+            <h6 className="mil-mb-60 visiblty-hidden">Usefull Links</h6>
+            <ul className="mil-footer-list">
+              <li className="mil-text-m mil-soft mil-mb-15">
+                <Link href="contact">Contact Us</Link>
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
-                <Link href="services">Services</Link>
+                <Link href="coming-soon">Privacy Policy</Link>
               </li>
               <li className="mil-text-m mil-soft mil-mb-15">
-                <Link href="press">Press</Link>
+                <Link href="coming-soon"> Terms of Service</Link>
               </li>
             </ul>
           </div>
@@ -94,7 +102,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
               </li>
             </ul>
           </div>
-          <div className="col-xl-3 mil-mb-80">
+          {/* <div className="col-xl-3 mil-mb-80">
             <h6 className="mil-mb-60">Newsletter</h6>
             <p className="mil-text-xs mil-soft mil-mb-15">
               Subscribe to get the latest news form us
@@ -114,7 +122,7 @@ const Footer1 = ({ bg = true, margin = 160 }) => {
                 </p>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
         <div className="mil-footer-bottom">
           <div className="row">

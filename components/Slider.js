@@ -44,7 +44,7 @@ const Slider = ({
                     </div>
                   </div>
                   <div className="col-xl-6 banner-column">
-                    <div className="mil-banner-img">
+                    <div className="mil-banner-img img-9">
                       <img src={testimonial.img} alt="banner" style={testimonial.style} />
                     </div>
                   </div>
