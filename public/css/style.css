@@ -139,7 +139,7 @@ h1.mil-display, .h1.mil-display {
 }
 .mil-banner .mil-banner-img {
 	width: 620px;
-	margin-left: -12%;
+	margin-left: -36%;
 	position: relative;
 	top: 120px;
 	height: 100vh;
@@ -499,7 +499,6 @@ buttons
 	height: 48px;
 	border-radius: 500px !important;
 	font-size: 16px;
-	width: 196px;
 }
 .mil-btn.mil-m {
   padding: 0 30px;
@@ -1551,8 +1550,8 @@ banner
   float: left;
 }
 .mil-banner .mil-banner-img img {
-  height: 869px !important;
-  width: 700px;
+  height:100% !important;
+  width:auto;
 }
 @media screen and (max-width: 1200px) {
   .mil-banner {
