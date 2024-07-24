@@ -137,7 +137,7 @@ const Page = () => {
 
     try {
       setLoading(true)
-      const response = await fetch('/api/sendmail', {
+      const response = await fetch('/api/sendmail/sendmail.php', {
         method: "POST",
         headers: {
           'Content-Type': 'application/json'
